@@ -28,6 +28,7 @@ class PromoCodeController extends BaseController
 
     public function index()
     {
+        dd(1);
         $page = trans('pages_names.view_promo');
 
         $main_menu = 'manage-promo';

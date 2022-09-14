@@ -371,7 +371,7 @@ Route::middleware('auth:web')->group(function () {
        
 
         // Promo Codes CRUD
-        Route::group(['prefix' => 'promo',  'middleware' => 'permission:manage-promo'], function () {
+        Route::group(['prefix' => 'promo'], function () {
             Route::get('/', 'PromoCodeController@index');
             Route::get('/fetch', 'PromoCodeController@fetch');
             Route::get('/create', 'PromoCodeController@create');
@@ -380,6 +380,16 @@ Route::middleware('auth:web')->group(function () {
             Route::post('update/{promo}', 'PromoCodeController@update');
             Route::get('toggle_status/{promo}', 'PromoCodeController@toggleStatus');
             Route::get('delete/{promo}', 'PromoCodeController@delete');
+        });
+        Route::group(['prefix' => 'luck'], function () {
+            Route::get('/', 'LuckWheelController@index');
+            Route::get('/fetch', 'LuckWheelController@fetch');
+            Route::get('/create', 'LuckWheelController@create');
+            Route::post('store', 'LuckWheelController@store');
+            Route::get('/{luck}', 'LuckWheelController@getById');
+            Route::post('update/{luck}', 'LuckWheelController@update');
+            Route::get('toggle_status/{luck}', 'LuckWheelController@toggleStatus');
+            Route::get('delete/{luck}', 'LuckWheelController@delete');
         });
 
         // Manage Notifications
