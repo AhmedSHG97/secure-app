@@ -1,0 +1,2 @@
+[22-Aug-2022 23:39:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bennebostaxi/public_html/resources/views/admin/master/settings.blade.php on line 37
+[22-Aug-2022 23:39:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bennebostaxi/public_html/resources/views/admin/master/settings.blade.php on line 53

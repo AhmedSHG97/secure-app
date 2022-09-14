@@ -1,0 +1,42 @@
+/* icons list */
+.icons-list {
+	ul {
+		margin: 5px 0;
+	}
+	i {
+		display: inline-block;
+		width: 18px;
+		text-align: center;
+	}
+	.list1.without-border {
+		li {
+			border: 0;
+			padding: 8px 0 9px 0;
+          &:empty{
+            @media(max-width: 991px){
+              display: none;
+            }
+          }
+		}
+	}
+}
+.ls {
+	.icons-list {
+		a {
+			color: $fontColor;
+			&:hover {
+				color: $mainColor;
+			}
+		}
+		.list1.with-border {
+			color: $darkgreyColor;
+		}
+	}
+}
+.ds {
+	.icons-list {
+		.list1.with-border {
+			color: $lightColor;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+/* Signature */
+.fw-theme-signature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  &.type-2{
+    justify-content: flex-start;
+    .img-part{
+      margin-right: 60px;
+      @media (max-width: 575px) {
+        margin-right: 20px;
+      }
+    }
+  }
+  .section_header {
+
+    font-weight: bold;
+    font-size: 16px;
+
+    margin-bottom: 0;
+  }
+  .desc {
+    font-size: 16px;
+    text-transform: none;
+  }
+  .img-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

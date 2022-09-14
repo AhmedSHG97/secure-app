@@ -1,0 +1,47 @@
+/* events calendar */
+//for wordpress - unyson events calendar
+div .fw-shortcode-calendar-wrapper .page-header h3,
+div .btn-group button[data-calendar-nav],
+div .btn-group button[data-calendar-nav*='today'],
+div #cal-slide-content a.event-item {
+	color: $darkgreyColor;
+}
+
+div #cal-day-box .time-col,
+div #cal-day-box .cal-row-head,
+div #cal-day-box .cal-day-hour,
+div #cal-day-box .cal-row-head,
+div #cal-day-box .cal-day-hour,
+div #cal-day-box .cal-day-hour .cal-day-hour-part,
+div .cal-week-box .cal-column,
+div .cal-row-fluid.cal-row-head [class*="cal-cell"],
+div .cal-week-box .cal-row-head [class*="cal-cell"] small,
+div .cal-year-box [class*="span"],
+div .cal-month-box [class*="cal-cell"],
+div .cal-year-box .row-fluid,
+div .cal-month-box .cal-row-fluid{
+	border-color: $borderColor;
+}
+div .fw-shortcode-calendar .cal-week-box hr {
+	background-color: $borderColor;
+}
+div .cal-day-today,
+div .cal-day-today.event-day {
+	background-color: $mainColor;
+}
+div .cal-month-day.event-day {
+	background-color: lighten($mainColor, 20%);
+}
+div .cal-year-box [class*="span"]:hover,
+div .cal-month-box [class*="cal-cell"]:hover {
+	background-color: lighten($mainColor, 20%);
+}
+div #cal-slide-tick {
+	border-top-color: lighten($mainColor, 20%);
+}
+div .cal-week-box .cal-day-today span[data-cal-date],
+div .cal-week-box .cal-day-today.event-day span[data-cal-date],
+div .cal-month-box [class*="cal-cell"]:hover span[data-cal-date],
+div .cal-month-day.event-day span[data-cal-date] {
+	color: $darkColor;
+}

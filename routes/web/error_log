@@ -1,0 +1,68 @@
+[31-Jul-2022 19:44:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/dispatch.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/dispatch.php on line 5
+[08-Aug-2022 00:37:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/dispatch.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/dispatch.php on line 5
+[11-Aug-2022 08:52:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/test.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/test.php on line 16
+[21-Aug-2022 09:03:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/common.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/common.php on line 16
+[21-Aug-2022 18:01:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/dispatch.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/dispatch.php on line 5
+[24-Aug-2022 12:03:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/common.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/common.php on line 16
+[25-Aug-2022 11:25:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/user.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/user.php on line 16
+[27-Aug-2022 19:56:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/dispatch.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/dispatch.php on line 5
+[28-Aug-2022 13:53:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/common.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/common.php on line 16
+[28-Aug-2022 14:30:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/dispatch.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/dispatch.php on line 5
+[28-Aug-2022 15:59:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/test.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/test.php on line 16
+[28-Aug-2022 17:18:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/user.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/user.php on line 16
+[02-Sep-2022 01:07:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/common.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/common.php on line 16
+[02-Sep-2022 17:36:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/dispatch.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/dispatch.php on line 5
+[09-Sep-2022 11:14:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/dispatch.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/dispatch.php on line 5
+[11-Sep-2022 05:11:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/auth.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/auth.php on line 23
+[12-Sep-2022 00:26:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/web/test.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/web/test.php on line 16

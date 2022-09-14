@@ -1,0 +1,84 @@
+/**grey section - light section, muted section - .ls.ms*/
+.ls.ms {
+	background-color: $greyColor;
+
+	.greylinks a {
+		color: darken($fontColor, 10%);
+		&:hover {
+			color: $darkgreyColor;
+		}
+	}
+
+	.with_background {
+		background-color: $lightColor;
+	}
+
+
+	//template styles
+	hr {
+		background-color: $lightColor;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="number"],
+	textarea,
+	select,
+	.form-control {
+		border-color: transparent;
+		background-color: $lightColor;
+	}
+
+	.ls:not(.ms),
+	.with_background {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="tel"],
+		input[type="number"],
+		textarea,
+		select,
+		.form-control {
+			border-color: $borderColor;
+		}
+	}
+
+	.muted_background .form-control {
+		
+	}
+
+	//accordion
+	.panel-title > a {
+		background-color: $mainColor;
+	}
+	.panel-title > a:hover {
+		background-color: $mainColor;
+	}
+	.panel-title > a.collapsed {
+		background-color: $lightColor;
+	}
+	.panel-title > a.collapsed:hover {
+		background-color: $mainColor;
+	}
+   
+
+	.pagination a,
+	.pagination span {
+		background-color: $lightColor;
+	}
+	
+	.breadcrumb {
+		color: $fontColor;
+		a {
+			color: darken($fontColor, 10);
+			&:hover {
+				color: $mainColor;
+			}
+		}
+	}
+}

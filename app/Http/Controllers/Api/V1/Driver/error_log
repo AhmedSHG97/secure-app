@@ -1,0 +1,12 @@
+[16-Jul-2022 08:52:53 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Api\V1\BaseController' not found in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Driver/DriverDocumentController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Driver/DriverDocumentController.php on line 20
+[16-Jul-2022 08:57:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Api\V1\BaseController' not found in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Driver/EarningsController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Driver/EarningsController.php on line 18
+[16-Jul-2022 09:05:44 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Api\V1\BaseController' not found in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Driver/OnlineOfflineController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Driver/OnlineOfflineController.php on line 10

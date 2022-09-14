@@ -1,0 +1,124 @@
+/*nav*/
+.nav > li > a {
+	color: $darkgreyColor;
+}
+.nav>li>a:hover,
+.nav>li>a:focus {
+	background-color: inherit;
+}
+
+/*tabs*/
+.tab-content { 
+	border-radius: 0 0 0 0;
+	padding: 30px 30px;
+	border: 1px solid $borderColorRGBA;
+	&.no-border {
+		padding: 36px 0 0;
+		border: none;
+	}
+	&.top-color-border {
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: -1px;
+			height: 6px;
+			background-color: $mainColor;
+			
+		}
+	}
+	.featured-tab-image {
+		margin: -30px -31px 24px -31px;
+	}
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	border: 1px solid $borderColorRGBA;
+}
+.nav-tabs {
+	border-bottom-color: transparent;
+	margin-top: 0px; 
+	margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+	font-size: 14px;
+	padding: 19px 40px;
+	margin-right: 1px;
+	margin-top: 0px;
+	border:none;
+	border: 1px solid $darkgreyColor;
+	background-color: $darkgreyColor;
+	color: $lightColor;
+	border-radius: 0;
+	.small-tabs & {
+		padding: 10px 15px;
+	}
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	border-color: transparent;
+	background-color:$mainColor;
+	color: $lightColor;
+}
+.nav-tabs > li > a:hover, 
+.nav-tabs > li > a:focus, 
+.nav-tabs.nav-justified > .active > a {
+	border-color: $darkgreyColor;
+	background-color:$darkgreyColor;
+	color:$mainColor;
+}
+
+/*vertical tabs*/
+.vertical-tabs  {
+	.tab-content.no-border {
+		padding-top: 0;
+	}
+	.nav > li > a {
+		background-color: $darkgreyColor;
+		color: $lightColor;
+		padding: 18px 60px 18px 40px ;
+		margin-bottom: 10px;
+		position: relative;
+		i{
+			position: relative;
+			top: 1px;
+			padding-right: 12px;
+		}
+		
+	}
+	.nav > li > a:after {
+		color: rgba($lightColor, 0.8);
+		font-family: 'rt-icons-2';
+		content:"\e7c5";
+		position: absolute;
+		font-size: 12px;
+		line-height: 58px;
+		text-align: center;
+		right: 0;
+		top:0;
+		bottom: 0;
+		width: 60px;
+		border-left: 1px solid $colorBorderColor;
+		letter-spacing: 0;
+	}
+
+	.nav > li.active a,
+	.nav > li > a:hover{
+		background-color: $mainColor;
+	}
+}
+@media (min-width: 768px) {
+	.vertical-tabs {
+		.nav {
+		}
+		.tab-content {
+		}
+		.nav > li.active {
+			position: relative;
+			z-index: 2;
+		}
+
+	}
+}

@@ -1,0 +1,8 @@
+[25-Jul-2022 19:18:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Requests\BaseRequest' not found in /home/bennebostaxi/public_html/app/Http/Requests/Auth/AdminLoginRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Requests/Auth/AdminLoginRequest.php on line 7
+[25-Jul-2022 19:22:02 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Requests\BaseRequest' not found in /home/bennebostaxi/public_html/app/Http/Requests/Auth/GenericLoginRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Requests/Auth/GenericLoginRequest.php on line 7

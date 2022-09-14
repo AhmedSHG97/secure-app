@@ -1,0 +1,8 @@
+[26-Jul-2022 07:34:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/bennebostaxi/public_html/app/Models/Request/Chat.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Models/Request/Chat.php on line 10
+[26-Jul-2022 07:42:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/bennebostaxi/public_html/app/Models/Request/Request.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Models/Request/Request.php on line 19

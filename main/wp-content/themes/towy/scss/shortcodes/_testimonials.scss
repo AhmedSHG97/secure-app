@@ -1,0 +1,255 @@
+
+
+/* big testimonials slider */
+//testimonials shortcode
+.blockquote-big {
+	max-width: 82%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	color: inherit;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+
+	padding: 0 40px;
+	border: none;
+	.flexslider & {
+		padding-bottom: 0;
+	}
+
+	h3 {
+		font-size: 16px;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		color: inherit;
+		margin-top: 30px;
+	}
+	img {
+		display: block;
+		max-width: 75px;
+		border-radius: 50%;
+		margin: 0 auto 55px;
+		border: 4px solid $mainColor;
+	}
+	.blockqoute-meta {
+		font-weight: 400;
+		font-size: 16px;
+		margin-top: 50px;
+		margin-bottom: 0;
+		font-style: normal;
+		.author-name {
+			text-transform: uppercase;
+			font-size: 15px;
+			display: block;
+			width: 100%;
+			line-height: 1;
+		}
+		.author-job {
+			margin-top: 0;
+			font-weight: 300;
+			display: block;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.flexslider.testimonials-slider {
+		.flex-direction-nav {
+			.flex-prev {
+				left: 0;
+			}
+			.flex-next {
+				right: 0;
+			}
+		}
+	}
+}
+@media (max-width: 600px) {
+	.blockquote-big {
+		font-size: 18px;
+		max-width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+/* testimonials-carousel */
+.testimonials-carousel {
+	padding: 0 0 20px;
+
+	.item > p {
+		font-style: italic;
+		padding-left: 40px;
+		margin-bottom: 40px;
+		position: relative;
+		/////////homepage main teaser
+		&:before {
+			font-family: 'PT Sans', sans-serif;
+			font-size: 100px;
+			font-style: normal;
+			content: '\201c';
+			position: absolute;
+			left: -3px;
+			top: 30px;
+			z-index: 10;
+		}   
+	}
+	h4 {
+		margin: 0;
+	}
+	h4 + p {
+		margin-bottom: 0;
+	}
+
+	.carousel-indicators {
+		bottom: -16px;
+		display: none;
+	}
+
+	.carousel-control{
+		display: none;
+	}
+	.media + p {
+		position: relative;
+		padding: 10px 16px;
+		background-color: $backgroundColor;
+	}
+	.media:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.media + p:before,
+	.media + p:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: auto;
+		bottom: -18px;
+		border-style: solid;
+		border-width: 18px 0 0 18px;
+		border-color:  $borderColorRGBA transparent  transparent transparent;
+	}
+	.media + p:after {
+		left: auto;
+		right: 0;
+		border-style: solid;
+		border-width: 18px 18px 0 0;
+	}
+
+	.media-object {
+		max-width: 50px;
+		border-radius: 50%;
+		margin-bottom: 10px;
+	}
+	.carousel-indicators li{
+		border-color: $mainColor;
+	}
+	.carousel-indicators li.active{
+		background-color: $mainColor;
+	}
+}
+.testimonials-control {
+	font-size: 22px;
+}
+
+/* testimonials single layout */
+.fw-testimonial-single {
+	.blockquote {
+		max-width: 87%;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 42px;
+		color: inherit;
+		font-size: 18px;
+		text-align: center;
+		line-height: 30px;
+		padding: 0;
+		border: none;
+
+		h3 {
+			font-size: 16px;
+			letter-spacing: 0.09em;
+			text-transform: uppercase;
+			color: inherit;
+			margin-top: 30px;
+		}
+		img {
+			display: block;
+			max-width: 75px;
+			border-radius: 50%;
+			margin: 0 auto 55px;
+			border: 4px solid $mainColor;
+		}
+		.blockqoute-meta {
+			font-weight: 400;
+			font-size: 16px;
+			margin-top: 50px;
+			margin-bottom: 0;
+			font-style: normal;
+			.author-name {
+				text-transform: uppercase;
+				font-size: 15px;
+				display: block;
+				width: 100%;
+				line-height: 1;
+			}
+			.author-job {
+				margin-top: 0;
+				font-weight: 300;
+				display: block;
+			}
+		}
+		.fw-column.has-bg-color &,
+		.fw-column-inner.has-bg-color & {
+			margin-bottom: 0;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			img {
+				margin-bottom: 30px;
+			}
+			.blockqoute-meta {
+				margin-top: 37px;
+			}
+		}
+	}
+
+	@media (max-width: 600px) {
+		.blockquote {
+			font-size: 18px;
+			max-width: 100%;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+}
+
+.blockquote-big,
+.fw-testimonial-single {
+	& .quote_symbols {
+		width: 75px;
+		height: 75px;
+		margin: 0 auto 55px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0.3;
+
+		&:before,
+		&:after {
+			content: "\e977";
+			font-family: "rt-icons-2";
+			font-size: 34px;
+			font-style: normal;
+		}
+		&:after {
+			content: "\e978";
+			margin-left: 5px;
+		}
+	}
+}

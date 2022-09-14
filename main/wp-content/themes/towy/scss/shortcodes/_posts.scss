@@ -1,0 +1,141 @@
+/* posts shortcode */
+.shortcode-posts {
+	.grayscale-img {
+		img {
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+			filter: grayscale(100%);
+		}
+	}
+	.item-content {
+		.item-title {
+			display: block;
+			height: 46px;
+			overflow: hidden;
+		}
+		.author {
+			display: block;
+			margin-top: -3px;
+			font-size: 13px;
+			font-weight: 400;
+		}
+      p{
+        margin-bottom: 0;
+      }
+      .greylinks.entry-date{
+        margin-top: 30px;
+        display: inline-block;
+      }
+	}
+	.owl-carousel.owl-loaded {
+		.item-media {
+			max-height: 240px;
+			overflow: hidden;
+			display: block;
+		}
+	}
+  /* Tiled special layout */
+  &.tiled-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    @media(min-width: 1200px){
+      margin: 0 -30px;
+    }
+
+    .post + .post {
+      margin-top: 30px;
+    }
+    .bigitem {
+      .vertical-item {
+        .item-title{
+          font-size: 30px;
+          height: auto;
+          font-weight: 700;
+          margin-bottom: 15px;
+        }
+        .item-content{
+          padding: 55px 35px 45px;
+        }
+        p {
+
+          overflow: hidden;
+          margin-bottom: 0px;
+        }
+        .entry-date{
+          margin-top: 16px;
+        }
+      }
+    }
+    .item-content {
+      .post-meta {
+        text-transform: uppercase;
+        color: $mainColor;
+        line-height: 1.2;
+        a {
+          color: $mainColor;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+      .comments-link {
+        margin-right: 8px;
+        &:after {
+          color: $darkgreyColor;
+          top: -1px;
+        }
+      }
+    }
+    .smallitem {
+      .item-title{
+        font-size: 20px;
+        height: auto;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+      @media(max-width: 575px) {
+        .side-item {
+          .item-content {
+            padding: 30px;
+            p {
+              height: auto;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+      @media(min-width: 575px) {
+        .side-item {
+          display: flex;
+          flex-flow: wrap;
+          .item-media-wrap {
+            flex: 0 0 50%;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .item-content {
+            padding: 0 0 0 30px;
+            flex: 0 0 50%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p {
+              height: 45px;
+              overflow: hidden;
+            }
+            > span {
+              display: inline-block;
+              width: auto;
+
+            }
+            .entry-date{
+              margin-top: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

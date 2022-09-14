@@ -1,0 +1,132 @@
+/*
+**main menu mobile styles
+*/
+@media(max-width: 991px) {
+	.page_header {
+		.mobile-active {
+			
+		}
+	}
+	.mainmenu_wrapper{
+		position: fixed;
+		visibility: hidden;
+		z-index: 10;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: transparent;
+		opacity: 0;
+
+		@include elementTransition(all, 0.3s, ease, 0s);
+	}
+
+	.mobile-active .mainmenu_wrapper {
+		visibility: visible;
+		opacity: 1;
+		background-color: #111;
+		background-color: rgba(0,0,0,0.9);
+
+	}
+
+	.toggle_menu {
+		display: block;
+
+		&.sticked{
+		}
+		&.mobile-active {
+			background-color: $darkgreyColor;
+			border: none;
+			left: auto;
+			top: 0;
+			right: 0;
+			position: fixed;
+			margin: 0;
+			z-index: 3000;
+			&:after {
+				position: absolute;
+				top: 14px;
+				left: 10px;
+				font-family: 'rt-icons-2';
+				content: "\e117";
+				font-size: 40px;
+				color: $lightColor;
+			}
+			span {display: none;}
+		}
+	}
+	
+	.nav-justified>li>a {
+		text-align: left;
+	}
+	.sf-menu {
+		position: fixed;
+		overflow: auto;
+		background-color: $darkgreyColor;
+		padding: 10px 20px 10px 10px;
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 100%;
+		font-size: 1.1em;
+		text-transform: uppercase;
+		font-weight: 400;
+		word-wrap: break-word;
+		text-align: left;
+		@include elementTransition(all, 0.4s, ease-out, 0s);
+		opacity: 0;
+		.mobile-active & {
+			opacity: 1;
+			right: 20px;
+		}
+	}
+	.sf-menu > li > a,
+	.sf-menu a {
+		color: $lightColor;
+	}
+	.sf-menu ul {
+		list-style: none;
+		padding-left: 10px;
+	}
+	.sf-menu ul li a{
+		display: block;
+		padding: 10px;
+		font-weight: 300;
+		font-size: 16px;
+		text-transform: none;
+	}
+	.sf-menu ul li a:before {
+		content: '-';
+		padding-right: 5px;
+	}
+	.sf-menu ul ul li a:before {
+		content: '--';
+		padding-right: 5px;
+	}
+
+	/*** arrows (for all except IE7) **/
+	.sf-arrows .sf-with-ul {
+		padding-right: 2.5em;
+		*padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+	}
+	/* styling for both css and generated arrows */
+	.sf-arrows .sf-with-ul:after {
+		font-family: 'FontAwesome';
+		content: '\f107';
+		position: absolute;
+		right: 1.44em;
+		height: 0;
+		width: 0;
+		font-size: 20px;
+	}
+	// /*top menu level*/
+	.sf-arrows .sfHover > a,
+	.sf-arrows .sfHover > a:hover {
+	}
+}
+
+@media (max-width: 400px) {
+	.sf-menu {
+	}
+   
+}

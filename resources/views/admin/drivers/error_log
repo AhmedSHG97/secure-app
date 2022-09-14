@@ -1,0 +1,4 @@
+[23-Aug-2022 09:06:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function url() in /home/bennebostaxi/public_html/resources/views/admin/drivers/update.blade.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/resources/views/admin/drivers/update.blade.php on line 334

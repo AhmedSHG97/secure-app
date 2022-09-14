@@ -1,0 +1,68 @@
+/*pagination*/
+.pagination {
+    margin: 0;
+}
+.pagination>li {
+    display: inline-block;
+    a.prev,
+    span.prev {
+        font-size: 0;
+        &:before {
+            font-size: 20px;
+            font-family: FontAwesome;
+            content: "\f104";
+            position: relative;
+            top:1px;
+        }
+    }
+    a.next,
+    span.next {
+        font-size: 0;
+        &:before {
+            font-size: 20px;
+            font-family: FontAwesome;
+            content: "\f105";
+            position: relative;
+            top:1px;
+        }
+    }
+}
+.pagination>li>a,
+.pagination>li>span {
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    font-size: 18px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    min-width: 30px;
+}
+
+// Styles for pagination arrows 
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+    border-radius: 0px;
+    padding: 10px 26px;
+}
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    border-radius: 0px;
+    padding: 10px 26px;
+}
+
+
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus{
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus
+{
+}

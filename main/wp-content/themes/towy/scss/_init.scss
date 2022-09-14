@@ -1,0 +1,42 @@
+
+$mainColor: #ffc326 !default;
+$mainColor2: #e23751 !default;
+$mainColor3: #ff9402 !default;
+
+// variables
+//main accent colors moved to _accent_colorsX.scss
+//Colors
+//text in light section
+$fontColor: #787878; //for TF - more contrast
+//background color for light section and font color in dark section
+$lightColor: #ffffff;
+//color for headings in light section and for background in dark section (.ds)
+$darkgreyColor: #232323;
+//background color for light muted section (grey - .ls.ms)
+$greyColor: #f2f2f2;
+//background color for dark muted section (.ds.ms)
+$darkColor: #181818;
+//border colors for elements in light section (and .with_border elements)
+$borderColor: #b4b4b4;
+$borderColorRGBA: rgba(#000, 0.06);
+//background color for elements in light section (.with_background)
+$backgroundColor: #f5f5f5;
+
+//section variables
+///////// dark
+$darkFontColor: #b4b4b4;
+    //for .with_border
+$darkBorderColor: #303030;
+	// for .with_background, .muted_section
+$darkBackgroundColor: rgba(#fff, 0.06);
+
+///////// color
+$colorBorderColor: rgba(255, 255, 255, 0.1);
+
+@mixin elementTransition($proprety: all, $duration: 0.2s, $time_function: ease-in-out, $delay: 0s) {
+    -webkit-transition: $proprety $duration $time_function $delay;
+    -moz-transition: $proprety $duration $time_function $delay;
+    -o-transition: $proprety $duration $time_function $delay;
+    -ms-transition: $proprety $duration $time_function $delay;
+    transition: $proprety $duration $time_function $delay;
+}

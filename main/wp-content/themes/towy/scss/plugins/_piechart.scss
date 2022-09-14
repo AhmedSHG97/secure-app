@@ -1,0 +1,39 @@
+/*
+easy pie chart
+*/
+
+.chart {
+	position: relative;
+	display: inline-block;
+	min-height: 150px;
+	min-width: 150px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	canvas {
+	}
+	.chart-meta {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		margin-top: -30px;
+	}
+}
+
+.percent {
+	display: inline-block;
+	font-size: 70px;
+	font-weight: 100;
+	z-index: 2;
+	letter-spacing: -0.05em;
+	//
+}
+.percent:after {
+	content: '%';
+}
+.angular {
+	margin-top: 100px;
+	.chart {
+		margin-top: 0;
+	}
+}

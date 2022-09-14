@@ -1,0 +1,31 @@
+/* Special heading shortcodes */
+#box_wrapper {
+	counter-reset: number;
+}
+
+#box_wrapper .numbered-header {
+	position: relative;
+	z-index: 1;
+}
+
+#box_wrapper .numbered-header:before {
+	content: counter(number, decimal-leading-zero);
+	counter-increment: number;
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	font-size: 130px;
+	font-weight: 400;
+	opacity: 0.05;
+	z-index: -1;
+}
+
+#box_wrapper .text-center.numbered-header:before {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.paragraph{
+  margin-bottom: 5px;
+  letter-spacing: -0.5px;
+}

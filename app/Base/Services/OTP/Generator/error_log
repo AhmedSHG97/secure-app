@@ -1,0 +1,4 @@
+[14-Jul-2022 14:41:55 UTC] PHP Fatal error:  Uncaught Error: Interface 'App\Base\Services\OTP\Generator\OTPGeneratorContract' not found in /home/bennebostaxi/public_html/app/Base/Services/OTP/Generator/OTPGenerator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Base/Services/OTP/Generator/OTPGenerator.php on line 5

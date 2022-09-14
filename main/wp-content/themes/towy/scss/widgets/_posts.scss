@@ -1,0 +1,32 @@
+/* posts widget */
+.widget_theme_posts {
+	.sub-title {
+		overflow: hidden;
+		display: block;
+		width: 100%;
+		font-size: 15px;
+		font-weight: 300;
+		margin-top: 10px;
+	}
+}
+.widget-posts {
+	.item-media {
+		max-height: 240px;
+		overflow: hidden;
+		display: block;
+	}
+	.item-content {
+		.item-title {
+			display: block;
+			height: 46px;
+			overflow: hidden;
+			margin-bottom: 10px;
+		}
+		.author {
+			display: block;
+			margin-top: -3px;
+			font-size: 13px;
+			font-weight: 400;
+		}
+	}
+}

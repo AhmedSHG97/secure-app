@@ -1,0 +1,23 @@
+/* icon */
+.bg_icon {
+	@media(min-width: 992px) {
+		position: absolute;
+		top: 50%;
+		right: -30px;
+	}
+	font-size: 75px;
+	@media(min-width: 1200px) { font-size: 150px; }
+	color: rgba(35, 35, 35, 0.05);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+  &.icon_center{
+    left: 50%;
+    top: 50%;
+    z-index: -5;
+    transform: translateX(-55%) translateY(-50%);
+  i.highlight{
+    color: rgba($mainColor, 0.1);
+  }
+    @media(min-width: 1200px) { font-size: 230px; }
+  }
+}

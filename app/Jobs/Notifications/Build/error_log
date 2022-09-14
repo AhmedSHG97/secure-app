@@ -1,0 +1,8 @@
+[30-Aug-2022 06:01:23 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Notifications\BaseNotification' not found in /home/bennebostaxi/public_html/app/Jobs/Notifications/Build/BuildUploadNotification.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Jobs/Notifications/Build/BuildUploadNotification.php on line 9
+[01-Sep-2022 08:42:15 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Notifications\BaseNotification' not found in /home/bennebostaxi/public_html/app/Jobs/Notifications/Build/BuildUploadNotification.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Jobs/Notifications/Build/BuildUploadNotification.php on line 9

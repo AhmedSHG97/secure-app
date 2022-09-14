@@ -1,0 +1,27 @@
+/* widget icons list */
+.widget_icons_list   {
+    ul {
+      display: block;
+      overflow: hidden;
+      li {
+        margin-top: 7px;
+        margin-bottom: 14px;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .media-body,
+    .media-left {
+      display: table-cell;
+      vertical-align: top;
+    }
+    .media-left {
+      padding-right: 15px;
+      i {
+        display: inline-block;
+        width: 18px;
+        text-align: center;
+      }
+    }
+}

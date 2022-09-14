@@ -1,0 +1,3205 @@
+# Copyright (C) 2019 towy
+# This file is distributed under the same license as the towy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: towy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: support@modernwebtemplates.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-content/themes/towy/404.php:10, wp-content/themes/towy/template-parts/breadcrumbs/page-title-text.php:23
+msgid "404"
+msgstr ""
+
+#: wp-content/themes/towy/404.php:11
+msgid "Ooops!"
+msgstr ""
+
+#: wp-content/themes/towy/404.php:13
+msgid "Sorry, page not found!"
+msgstr ""
+
+#: wp-content/themes/towy/404.php:17
+msgid "BACK TO HOME"
+msgstr ""
+
+#: wp-content/themes/towy/archive-fw-portfolio.php:36, wp-content/themes/towy/inc/includes/icons-social.php:10, wp-content/themes/towy/framework-customizations/extensions/portfolio/views/carousel.php:33, wp-content/themes/towy/framework-customizations/extensions/portfolio/views/isotope.php:158, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/views/carousel.php:22, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/views/isotope.php:149, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/views/carousel.php:26, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/views/isotope.php:154
+msgid "All"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:20
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/comments.php:22
+msgid "No comments"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:25, wp-content/themes/towy/inc/hooks.php:170
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:25, wp-content/themes/towy/inc/hooks.php:170
+msgid "Comment"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:29
+msgid "Logged in as %3$s"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:29
+msgid "Log out?"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:32
+msgid "Logged in as %s. Edit your profile."
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:38
+msgid "Cancel reply"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:39
+msgid "Send Comment"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:43
+msgid "Clear Form"
+msgstr ""
+
+#: wp-content/themes/towy/comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:61
+msgid "Unyson"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:66
+msgid "MailChimp"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:71
+msgid "RVM - Responsive Vector Maps"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:76
+msgid "MWTemplates Theme Addons"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:83
+msgid "Instagram Feed"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:88
+msgid "User custom avatar"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:93
+msgid "AccessPress Social Counter"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:98
+msgid "Snazzy Maps"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:103
+msgid "Widget CSS Classes"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:108
+msgid "Envato Market"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:114
+msgid "Sass Compiler"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:119
+msgid "Revolution Slider"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:126
+msgid "WooCommerce"
+msgstr ""
+
+#: wp-content/themes/towy/functions.php:131
+msgid "Classic Editor"
+msgstr ""
+
+#: wp-content/themes/towy/header.php:33
+msgid "Close"
+msgstr ""
+
+#: wp-content/themes/towy/image.php:34
+msgid "in"
+msgstr ""
+
+#: wp-content/themes/towy/image.php:40, wp-content/themes/towy/page-templates/full-width.php:34, wp-content/themes/towy/template-parts/content-aside.php:55, wp-content/themes/towy/template-parts/content-aside.php:104, wp-content/themes/towy/template-parts/content-chat.php:57, wp-content/themes/towy/template-parts/content-chat.php:131, wp-content/themes/towy/template-parts/content-event.php:57, wp-content/themes/towy/template-parts/content-event.php:127, wp-content/themes/towy/template-parts/content-gallery.php:55, wp-content/themes/towy/template-parts/content-gallery.php:133, wp-content/themes/towy/template-parts/content-image.php:56, wp-content/themes/towy/template-parts/content-image.php:111, wp-content/themes/towy/template-parts/content-link.php:56, wp-content/themes/towy/template-parts/content-page.php:57, wp-content/themes/towy/template-parts/content-quote.php:47, wp-content/themes/towy/template-parts/content-status.php:55, wp-content/themes/towy/template-parts/content-video.php:74, wp-content/themes/towy/template-parts/content-video.php:150, wp-content/themes/towy/template-parts/content.php:57, wp-content/themes/towy/template-parts/content.php:131
+msgid "Pages:"
+msgstr ""
+
+#: wp-content/themes/towy/image.php:53
+msgid "Previous Image"
+msgstr ""
+
+#: wp-content/themes/towy/image.php:56
+msgid "Next Image"
+msgstr ""
+
+#: wp-content/themes/towy/searchform.php:12
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: wp-content/themes/towy/searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: wp-content/themes/towy/searchform.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: wp-content/themes/towy/sidebar.php:7
+msgid "Please add a widgets to Main Widget Area"
+msgstr ""
+
+#: wp-content/themes/towy/inc/helpers.php:399, wp-content/themes/towy/inc/helpers.php:574, wp-content/themes/towy/inc/helpers.php:709
+msgid "Prev"
+msgstr ""
+
+#: wp-content/themes/towy/inc/helpers.php:400, wp-content/themes/towy/inc/helpers.php:575, wp-content/themes/towy/inc/helpers.php:710
+msgid "Next"
+msgstr ""
+
+#: wp-content/themes/towy/inc/helpers.php:734
+msgid " Sticky: "
+msgstr ""
+
+#: wp-content/themes/towy/inc/helpers.php:740
+msgctxt "Used before post author name."
+msgid "by "
+msgstr ""
+
+#: wp-content/themes/towy/inc/helpers.php:818, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:51, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:50, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:24, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:69, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:90, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:111, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:27, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:37, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:67
+msgid "0"
+msgstr ""
+
+#: wp-content/themes/towy/inc/helpers.php:818, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:64, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:77, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:90, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:103, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:63, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:76, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:89, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:102, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:58, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:71, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:84, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:97
+msgid "1"
+msgstr ""
+
+#: wp-content/themes/towy/inc/helpers.php:818
+msgid "%"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:164, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:47, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:81
+msgid "Name"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:165
+msgid "Full Name"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:166
+msgid "Email"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:167
+msgid "Email Address"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:168, wp-content/themes/towy/inc/hooks.php:169
+msgid "Phone Number"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:273
+msgid "Password"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:323
+msgid "Main Widget Area"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:325, wp-content/themes/towy/inc/hooks.php:335
+msgid "Appears in the content section of the site."
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:333
+msgid "Before Blog Widget Area"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:343
+msgid "Footer Column 1"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:345, wp-content/themes/towy/inc/hooks.php:354, wp-content/themes/towy/inc/hooks.php:363, wp-content/themes/towy/inc/hooks.php:372
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:352
+msgid "Footer Column 2"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:361
+msgid "Footer Column 3"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:370
+msgid "Footer Column 4"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:748
+msgid "Towy Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:765
+msgid "Products Type - Shop"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:799
+msgid "Excerpt"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:805
+msgid "Paragraph with dropcap"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:811
+msgid "Main theme color"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:923
+msgid "Towy Demo (Blurred)"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:938
+msgid "Towy Demo (Colorized)"
+msgstr ""
+
+#: wp-content/themes/towy/inc/hooks.php:948, wp-content/themes/towy/inc/hooks.php:955
+msgstr ""
+
+#: wp-content/themes/towy/inc/menus.php:10
+msgid "Top primary menu"
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/content-aside.php:38, wp-content/themes/towy/template-parts/content-aside.php:88, wp-content/themes/towy/template-parts/content-chat.php:40, wp-content/themes/towy/template-parts/content-chat.php:112, wp-content/themes/towy/template-parts/content-event.php:40, wp-content/themes/towy/template-parts/content-event.php:110, wp-content/themes/towy/template-parts/content-gallery.php:37, wp-content/themes/towy/template-parts/content-gallery.php:115, wp-content/themes/towy/template-parts/content-image.php:39, wp-content/themes/towy/template-parts/content-image.php:94, wp-content/themes/towy/template-parts/content-link.php:39, wp-content/themes/towy/template-parts/content-link.php:89, wp-content/themes/towy/template-parts/content-quote.php:30, wp-content/themes/towy/template-parts/content-status.php:32, wp-content/themes/towy/template-parts/content-video.php:57, wp-content/themes/towy/template-parts/content-video.php:132, wp-content/themes/towy/template-parts/content.php:40, wp-content/themes/towy/template-parts/content.php:112
+msgctxt "Used between list items, there is a space after the comma."
+msgid " "
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/content-aside.php:45, wp-content/themes/towy/template-parts/content-aside.php:102, wp-content/themes/towy/template-parts/content-chat.php:47, wp-content/themes/towy/template-parts/content-chat.php:126, wp-content/themes/towy/template-parts/content-event.php:47, wp-content/themes/towy/template-parts/content-event.php:124, wp-content/themes/towy/template-parts/content-gallery.php:44, wp-content/themes/towy/template-parts/content-gallery.php:129, wp-content/themes/towy/template-parts/content-image.php:46, wp-content/themes/towy/template-parts/content-image.php:108, wp-content/themes/towy/template-parts/content-link.php:46, wp-content/themes/towy/template-parts/content-link.php:105, wp-content/themes/towy/template-parts/content-quote.php:37, wp-content/themes/towy/template-parts/content-quote.php:76, wp-content/themes/towy/template-parts/content-status.php:45, wp-content/themes/towy/template-parts/content-status.php:90, wp-content/themes/towy/template-parts/content-video.php:64, wp-content/themes/towy/template-parts/content-video.php:146, wp-content/themes/towy/template-parts/content.php:47, wp-content/themes/towy/template-parts/content.php:126
+msgid "More..."
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/content-none.php:10
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/content-none.php:10
+msgid "Get started here"
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/content-none.php:12
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/content-none.php:17
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/class-theme-comments-walker.php:38
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/class-theme-comments-walker.php:41
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/class-theme-comments-walker.php:54
+msgid "%1$s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:10
+msgid "Web Application Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:12
+msgid "Hand Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:13
+msgid "Transportation Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:14
+msgid "Gender Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:15
+msgid "File Type Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:18
+msgid "Payment Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:20
+msgid "Currency Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:21
+msgid "Text Editor Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:22
+msgid "Directional Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:23
+msgid "Video Player Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:24
+msgid "Brand Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:25
+msgid "Medical Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/icons-rt.php:26
+msgid "Theme Icons"
+msgstr ""
+
+#: wp-content/themes/towy/inc/includes/woocommerce.php:259, wp-content/themes/towy/inc/includes/woocommerce.php:264
+msgid "Product Rating"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386, wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:827, wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533, wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387, wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388, wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934, wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1121, wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2549, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:13
+msgid "Type"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: wp-content/themes/towy/inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/breadcrumbs/page-title-text.php:12
+msgid "Search Results for: %s"
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/breadcrumbs/page-title-text.php:17
+msgid "Blog"
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/breadcrumbs/page-title-text.php:30
+msgid "Shop"
+msgstr ""
+
+#: wp-content/themes/towy/template-parts/copyrights/copyrights-1.php:14, wp-content/themes/towy/template-parts/copyrights/copyrights-2.php:14
+msgid "Powered by WordPress"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:21
+msgid "Theme Colors"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:24
+msgid "Accent Color 1"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:25
+msgid "Set accent color 1"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:30, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:36
+msgid "Accent Color 2"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:31, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:37
+msgid "Set accent color 2"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:48
+msgid "Site Logo"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:54
+msgid "Main logo image that appears in header"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:55
+msgid "Select your logo"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:56
+msgid "Choose image to display as a site logo"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:62, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:70
+msgid "Towy"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:64
+msgid "Logo Text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:65
+msgid "Text that appears near logo image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:66
+msgid "Type your text to show it in logo"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:72
+msgid "Logo Tagline"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:73
+msgid "Text that appears near logo text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:79
+msgid "Theme Blog"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:82
+msgid "Post Categories"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:83
+msgid "Show post categories?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:87, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:101, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:42, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:121, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:24, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:49, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:69, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:90, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:111, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:132, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:56, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/options.php:26, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:44, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:57, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:70, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:83, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:66, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:73, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:120, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:115, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:129, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:47, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:23, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:47, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:26, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:48, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:224
+msgid "Yes"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:91, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:105, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:38, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:117, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:28, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:53, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:65, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:86, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:107, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:128, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:60, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/options.php:22, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:40, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:53, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:66, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:79, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:70, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:69, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:116, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:111, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:125, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:43, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:27, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:43, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:22, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:44, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:220
+msgid "No"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:96
+msgid "Post Tags"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:97
+msgid "Show post tags?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:112
+msgid "Theme Header"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:122
+msgid "Template Header"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:123
+msgid "Select one of predefined theme headers"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:124
+msgid "You can select one of predefined theme headers"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:139
+msgid "Theme Footer"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:149
+msgid "Page footer"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:150
+msgid "Select one of predefined page footers."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:151
+msgid "You can select one of predefined theme footers"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:162
+msgid "Theme Copyrights"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:172
+msgid "Page copyrights"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:173
+msgid "Select one of predefined page copyrights."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:174
+msgid "You can select one of predefined theme copyrights"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:183
+msgid "24/7 Towy - Towing Services "
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:183
+msgid " All Rights Reserved &copy; 2017"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:184
+msgid "Copyrights text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:185
+msgid "Please type your copyrights text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:191
+msgid "Theme Fonts"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:194
+msgid "Font for body"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:204, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:262
+msgid "Enable"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:205
+msgid "Enable custom body font"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:208, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:266, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:332, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:361, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:374, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:387, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:400, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:413, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:426, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:439
+msgid "Disabled"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:212, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:270, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:328, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:357, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:370, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:383, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:396, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:409, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:422, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:435
+msgid "Enabled"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:241, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:299
+msgid "Custom font"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:242, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:300
+msgid "Select custom font for headings"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:243, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:301
+msgid "You should enable using custom heading fonts above at first"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:252
+msgid "Font for headings"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:263
+msgid "Enable custom heading font"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:313
+msgid "Miscellaneous"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:319
+msgid "Theme Preloader"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:325
+msgid "Enable Preloader"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:339
+msgid "Custom preloader image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:340, wp-content/themes/towy/framework-customizations/theme/options/customizer.php:466
+msgid "GIF image recommended. Recommended maximum preloader width 150px, maximum preloader height 150px."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:348
+msgid "Theme Share Buttons"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:354
+msgid "Enable Facebook Share Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:367
+msgid "Enable Twitter Share Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:380
+msgid "Enable Google+ Share Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:393
+msgid "Enable Pinterest Share Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:406
+msgid "Enable LinkedIn Share Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:419
+msgid "Enable Tumblr Share Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:432
+msgid "Enable Reddit Share Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:446
+msgid "Sliding Speed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:452
+msgid "Global Sliding Speed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:453
+msgid "Applied to all sliders, carousels, testimonials"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:454
+msgid "( in seconds )"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:459
+msgid "Page Title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/customizer.php:465
+msgid "Custom background for page title section"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/events/views/single.php:52
+msgid "Place"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/events/views/single.php:74
+msgid "Google Calendar"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/events/views/single.php:79
+msgid "Ical Export"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/events/views/single.php:83
+msgid "Start"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/events/views/single.php:85
+msgid "End"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/portfolio/views/item-extended.php:36
+msgid "Learn More"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/page.php:7
+msgid "Featured Additional Options"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/page.php:14
+msgid "Page Slider"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/page.php:15
+msgid "Insert slider shortcode for this page"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:7
+msgid "Featured Image Position"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:14
+msgid "Post layout in blog feed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:15
+msgid "Position of image in blog feed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:16
+msgid "Standard position of image at the top of the post. Or small image at the left of the post. Works only if featured image chosen."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:25
+msgid "Post Featured Video"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:33
+msgid "Featured Video"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:34
+msgid "Adds featured video"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/posts/post.php:35
+msgid "Leave blank if no needed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:8
+msgid "Options for child categories"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:11, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:12
+msgid "Portfolio Layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:12, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:13
+msgid "Choose projects layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:16, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:17, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:37
+msgid "Carousel"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:17, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:18, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:38
+msgid "Masonry Grid"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:21, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:22, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:42
+msgid "Item layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:22, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:23, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:43
+msgid "Choose Item layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:26, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:27, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:47
+msgid "Regular (just image)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:27, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:28, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:48
+msgid "Image with title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:28, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:29, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:49
+msgid "Image with title and excerpt"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:34
+msgid "Full width gallery"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:35
+msgid "Enable full width container for gallery"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:46, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:45, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:19
+msgid "Horizontal item margin (px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:47, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:46, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:20
+msgid "Select horizontal item margin"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:52, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:51, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:25
+msgid "1px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:53, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:52, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:26
+msgid "2px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:54, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:25, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:53, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:27
+msgid "10px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:55, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:27, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:54, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:28
+msgid "30px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:59, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:53
+msgid "Columns on large screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:60, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:59, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:54
+msgid "Select items number on wide screens (>1200px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:65, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:78, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:91, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:104, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:64, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:77, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:90, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:103, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:59, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:72, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:85, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:98
+msgid "2"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:66, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:79, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:92, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:105, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:65, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:78, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:91, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:104, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:60, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:73, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:86, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:99
+msgid "3"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:67, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:80, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:93, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:106, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:66, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:79, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:92, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:105, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:61, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:74, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:87, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:100
+msgid "4"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:68, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:81, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:94, wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:107, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:67, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:80, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:93, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:106, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:62, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:75, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:88, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:101
+msgid "6"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:72, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:71, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:66
+msgid "Columns on middle screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:73, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:72, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:67
+msgid "Select items number on middle screens (>992px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:85, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:84, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:79
+msgid "Columns on small screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:86, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:85, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:80
+msgid "Select items number on small screens (>768px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:98, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:97, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:92
+msgid "Columns on extra small screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:99, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:98, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:93
+msgid "Select items number on extra small screens (<767px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:113, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:112, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:107
+msgid "Show filters"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/theme/options/taxonomies/fw-portfolio-category.php:114, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:113, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:108
+msgid "Hide or show categories filters"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:8
+msgid "Panels"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:9
+msgid "Add/Edit Accordion Panels"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:10
+msgid "Create your accordion panels"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:15, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:41, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:17, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:7
+msgid "Title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:19, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:8
+msgid "Content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:24
+msgid "Panel Featured Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:25
+msgid "Image for your panel."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:26, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:77
+msgid "It appears to the left from your content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:31
+msgid "Icon in panel title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:7
+msgid "Button Label"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:8
+msgid "This is the text that appears on your button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:10
+msgid "Submit"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:13
+msgid "Button Link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:14
+msgid "Where should your button link to"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:20
+msgid "Open Link in New Window"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:21
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:32
+msgid "Button Color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:33
+msgid "Choose a type for your button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:36, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:24, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:65, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:191
+msgid "Default"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:37
+msgid "Color1"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:38
+msgid "Color2"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:39
+msgid "Inverse"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:40
+msgid "Just link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:46
+msgid "Wide button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/button/options.php:47
+msgid "Switch to create wider button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:9
+msgid "Text alignment in column"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:10
+msgid "Select text alignment inside your column"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:12
+msgid "Inherit"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:13, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:30, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:36, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:68, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:12, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:30
+msgid "Left"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:14, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:31, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:69, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:13, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:31
+msgid "Center"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:15, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:32, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:32, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:70, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:14, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:32
+msgid "Right"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:21
+msgid "Column padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:22
+msgid "Select optional internal column paddings"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:24
+msgid "No padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:26
+msgid "20px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:28
+msgid "40px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:35
+msgid "Background color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:36, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:20, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:51
+msgid "Select background color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:37, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:23, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:21, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:52
+msgid "Select one of predefined background colors"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:39
+msgid "Transparent (No Background)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:40, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:26, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:56, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:123, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:14
+msgid "Dark"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:41, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:27, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:57
+msgid "Main color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:45
+msgid "Background covers columns gap"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:60, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:62
+msgid "Animation type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:61, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:63, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:189
+msgid "Select one of predefined animations"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:63, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:88, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:139, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:159
+msgid "None"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:64, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:66, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:192
+msgid "slideDown"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:65, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:67, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:193
+msgid "scaleAppear"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:66, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:68, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:194
+msgid "fadeInLeft"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:67, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:69, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:195
+msgid "fadeInUp"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:68, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:70, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:196
+msgid "fadeInRight"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:69, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:71, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:197
+msgid "fadeInDown"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:70, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:72, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:198
+msgid "fadeIn"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:71, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:73, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:199
+msgid "slideRight"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:72, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:74, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:200
+msgid "slideUp"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:73, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:75, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:201
+msgid "slideLeft"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:74, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:76, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:202
+msgid "expandUp"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:75, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:77, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:203
+msgid "slideExpandUp"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:76, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:78, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:204
+msgid "expandOpen"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:77, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:79, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:205
+msgid "bigEntrance"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:78, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:80, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:206
+msgid "hatch"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:79, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:81, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:207
+msgid "tossing"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:80, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:82, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:208
+msgid "pulse"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:81, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:83, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:209
+msgid "floating"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:82, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:84, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:210
+msgid "bounce"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:83, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:85, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:211
+msgid "pullUp"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:84, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:86, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:212
+msgid "pullDown"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:85, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:87, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:213
+msgid "stretchLeft"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:86, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:88, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:214
+msgid "stretchRight"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:87, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:89, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:215
+msgid "fadeInUpBig"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:88, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:90, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:216
+msgid "fadeInDownBig"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:89, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:91, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:217
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:90, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:92, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:218
+msgid "fadeInRightBig"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:91, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:93, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:219
+msgid "slideInDown"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:92, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:94, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:220
+msgid "slideInLeft"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:93, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:95, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:221
+msgid "slideInRight"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:94, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:96, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:222
+msgid "moveFromLeft"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:95, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:97, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:223
+msgid "moveFromRight"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:96, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:98, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:224
+msgid "moveFromBottom"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:100, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:156
+msgid "Custom Class"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:101, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:157
+msgid "Add custom class for section"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:13
+msgid "Ruler Type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:14
+msgid "Here you can set the styling and size of the HR element"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:16
+msgid "Line"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:17
+msgid "Zebra"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:18
+msgid "Whitespace"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:27
+msgid "Divider alignment"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:28
+msgid "Select divider alignment"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:38
+msgid "Height"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:39
+msgid "How much whitespace do you need? Enter a pixel value. Positive value will increase the whitespace, negative value will reduce it. eg: '50', '-25', '200'"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:49
+msgid "Responsive visibility"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:50, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:41
+msgid "Settings"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:61
+msgid "Large"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:62
+msgid "Display on large screen?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:82
+msgid "Desktop"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:83
+msgid "Display on desktop?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:103
+msgid "Tablet"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:104
+msgid "Display on tablet?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:124
+msgid "Small devices"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:125
+msgid "Display on small devices?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:8
+msgid "Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:14, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:74
+msgid "Icon Style"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:15
+msgid "Select one of predefined icon styles."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:16, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:76
+msgid "If not set - no icon will appear."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:27
+msgid "Icon position"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:28
+msgid "Choose icon position"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:42
+msgid "Title near icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:46
+msgid "Text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:47
+msgid "Text near title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:51
+msgid "Background Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:52
+msgid "Make icon as background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/config.php:7, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/options.php:10
+msgid "Icons in list"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/config.php:8
+msgid "Several icons in bordered list"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/config.php:9, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/config.php:8, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/config.php:8, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/config.php:8, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/config.php:10, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/config.php:8, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/config.php:10, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/config.php:9, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/config.php:9, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:10
+msgid "Content Elements"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/options.php:11
+msgid "Add/Edit Icons in list"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/options.php:12, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:10, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:39, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:12
+msgid "Create your tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-list/options.php:19
+msgid "Item Border"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/config.php:6
+msgid "Social Icons"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/config.php:7
+msgid "Add set of social icons"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:9
+msgid "Social Buttons"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:10
+msgid "Optional social buttons"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:15
+msgid "Social Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:21
+msgid "Icon type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:22
+msgid "Select one of predefined social button types"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:25
+msgid "Simple Bordered Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:26
+msgid "Rounded Bordered Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:27
+msgid "Simple Background Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:28
+msgid "Rounded Background Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:29
+msgid "Color Light Background Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:30
+msgid "Color Light Background Rounded Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:31
+msgid "Color Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:32
+msgid "Color Bordered Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:33
+msgid "Rounded Color Bordered Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:34
+msgid "Color Background Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:35
+msgid "Rounded Color Background Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:47
+msgid "Icon Link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:48
+msgid "Provide a URL to your icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/icons-social/options.php:52, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:31, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:150
+msgid "Add"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/config.php:7
+msgid "Images carousel"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/config.php:8
+msgid "Show images carousel with optional links"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/config.php:9
+msgid "Media Elements"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:10
+msgid "Carousel items"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:15, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:42, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:76
+msgid "Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:21
+msgid "Image link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:26
+msgid "Title and Alt text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:37
+msgid "Loop carousel"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:50
+msgid "Show Nav"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:63
+msgid "Center carousel"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:76
+msgid "Autoplay"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:89
+msgid "Items count on <1200px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:107
+msgid "Items count on 992px-1200px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:122
+msgid "Items count on 768px-992px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:137
+msgid "Items count on >768px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/images-carousel/options.php:152
+msgid "Margin between items"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:13
+msgid "Population Method"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:14
+msgid "Select map population method (Ex: events, custom)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:24
+msgid "Google Maps API Key"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:26
+msgid "Create an application in %sGoogle Console%s and add the Key here."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:45
+msgid "Map Type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:46
+msgid "Select map type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:48
+msgid "Roadmap"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:49
+msgid "Terrain"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:50
+msgid "Satellite"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:51
+msgid "Hybrid"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:55
+msgid "Map Height"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:56
+msgid "Set map height (Ex: 300)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:62
+msgid "Disable zoom on scroll"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:63
+msgid "Prevent the map from zooming when scrolling until clicking on the map"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:76
+msgid "Map marker"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/config.php:6
+msgid "Media item (horizontal)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/config.php:7
+msgid "Add an image with aside text block"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:12, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:12
+msgid "Title of the Box"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:17, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:17, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:249
+msgid "Title Tag"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:19, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:19, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:251
+msgid "H2"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:20, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:20, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:252
+msgid "H3"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:21, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:21, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:253
+msgid "H4"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:26, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:26
+msgid "Item text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:27, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:27
+msgid "Enter desired item content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:33, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:33
+msgid "Item Box Style"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:35, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:35, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:231
+msgid "Default (no border or background)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:36, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:36, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:232
+msgid "Bordered"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:37, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:37, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:233
+msgid "Muted Background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:38, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:38, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:234
+msgid "Grey background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:39, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:39, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:236
+msgid "Darkgrey background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:40, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:40, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:235
+msgid "Dark background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:41, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:41, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:237
+msgid "Main color background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:42, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:42
+msgid "Bordered with Padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:43, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:43
+msgid "Muted Background with Padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:44, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:44
+msgid "Grey background with Padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:45, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:45
+msgid "Darkgrey background with Padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:46, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:46
+msgid "Dark background with Padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:47, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:47
+msgid "Main color background with Padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:53, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:53
+msgid "Item link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:54, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:54, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:174
+msgid "Link on title and optional button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:59, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:59
+msgid "Item Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:60, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:60
+msgid "Image for your item. Not all item layouts show image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:61, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:61
+msgid "Image for your item. Image can appear as an element, or background or even can be hidden depends from chosen item type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:66
+msgid "Image to the right"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:77
+msgid "Image width on wide screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:78
+msgid "Select image column width on wide screens (>1200px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:82, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:94, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:106, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:118, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:13
+msgid "Full Width"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:83, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:95, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:107, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:119, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:16, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:26
+msgid "1/2"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:84, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:96, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:108, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:120, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:17, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:27
+msgid "1/3"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:85, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:97, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:109, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:121, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:18, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:28
+msgid "1/4"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:89
+msgid "Image width on middle screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:90
+msgid "Select image column width on middle screens (>992px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:101
+msgid "Image width on small screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:102
+msgid "Select image column width on small screens (>768px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:113
+msgid "Image width on extra small screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:114
+msgid "Select image column width on extra small screens (<767px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:127, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:76
+msgid "Additional info"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:128, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:77
+msgid "Add icons with title and text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-horizontal/options.php:130, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:79
+msgid "Add New"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/config.php:6
+msgid "Media item (vertical)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/config.php:7
+msgid "Add an image with bottom text block"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/media-item-vertical/options.php:66
+msgid "Text Alignment"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:7
+msgid "Message"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:8
+msgid "Notification message"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:10
+msgid "Message!"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:14
+msgid "Notification type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:17
+msgid "Congratulations"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:18
+msgid "Information"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:19
+msgid "Alert"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:20
+msgid "Error"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/config.php:8
+msgid "Pie Chart"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/config.php:9
+msgid "Add a Pie Chart"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:15, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:26
+msgid "Chart Size (px)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:34
+msgid "Bar Color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:40
+msgid "Track Color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:51, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:15
+msgid "Count To"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:52, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:16
+msgid "Choose percent to count to"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:62
+msgid "Percents Counter Speed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:63, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:133
+msgid "Choose counter speed (in milliseconds)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:67
+msgid "Chart Name"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/pie-chart/options.php:68
+msgid "Appears below percents number"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/class-fw-shortcode-portfolio.php:63, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/class-fw-shortcode-posts.php:66
+msgid "No view found"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:14
+msgid "Portfolio"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:15
+msgid "Portfolio project various views"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:16, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/config.php:9, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/widget-area/config.php:7
+msgid "Widgets"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:41, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:15
+msgid "Items number"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:42
+msgid "Number of portfolio projects tu display"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:58
+msgid "Columns on wide screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/config.php:7
+msgid "Posts"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/config.php:8
+msgid "Posts various views"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:16
+msgid "Number of posts to display"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:32
+msgid "Post Layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:33
+msgid "Choose post layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:121
+msgid "Gray images"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/options.php:122
+msgid "Make images greyscale?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/config.php:6
+msgid "Progress Bar"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/config.php:7
+msgid "Add a Bootsrap progress bar"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:22
+msgid "Context background color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:25
+msgid "Success"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:26
+msgid "Info"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:27
+msgid "Warning"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/progress-bar/options.php:28
+msgid "Danger"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/config.php:7
+msgid "Layout Elements"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/config.php:8
+msgid "Section"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/config.php:9
+msgid "Add a Section"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:7
+msgid "Section Name"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:8
+msgid "Enter a name (it is for internal use and will not appear on the front end)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:9
+msgid "Use this option to name your sections. It will help you go through the structure a lot easier."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:19
+msgid "Background Color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:23, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:55, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:12
+msgid "Light"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:24
+msgid "Light Grey"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:25
+msgid "Dark Grey"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:38
+msgid "Use Custom Color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:39
+msgid "Specify background color directly"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:40
+msgid "\"Background Color\" setting still affects colors for text, links and other elements in the section."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:57
+msgid "Custom Color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:66
+msgid "Top padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:67
+msgid "Choose top padding value"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:70, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:91, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:114, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:30, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:40, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:70
+msgid "5 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:71, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:92
+msgid "15 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:72, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:93, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:116, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:32, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:42
+msgid "25 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:73, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:94
+msgid "30 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:74, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:95
+msgid "40 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:75, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:96
+msgid "50 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:76, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:97
+msgid "65 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:77, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:98
+msgid "75 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:78, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:99
+msgid "100 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:79, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:100
+msgid "120 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:80, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:101
+msgid "130 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:81, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:102
+msgid "150 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:87
+msgid "Bottom padding"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:88
+msgid "Choose bottom padding value"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:108, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:24, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:34
+msgid "Column paddings"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:109, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:25, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:35, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:64
+msgid "Choose columns horizontal paddings value"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:112, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:28, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:38, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:68
+msgid "1 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:113, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:29, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:39, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:69
+msgid "2 px"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:115, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:31, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:41, wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:66
+msgid "15 px - default"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:120
+msgid "Background Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:121
+msgid "Please select the background image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:127
+msgid "Background Cover"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:131
+msgid "Parallax"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:135
+msgid "Section overlay"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:139
+msgid "Flex section"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:140
+msgid "Make colums height 100% on wide screens"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:145
+msgid "Use cargo hook image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:152
+msgid "ID attribute"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:153
+msgid "Add ID attribute to section. Useful for single page menu"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:9
+msgid "Text alignment"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:10
+msgid "Select heading text alignment"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:19
+msgid "Numbered header"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:20
+msgid "Auto add number to section header"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:33
+msgid "Headings"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:34, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:44
+msgid "Choose a tag and text inside it"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:39
+msgid "Heading tag"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:40, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:50
+msgid "Select a tag for your "
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:42, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:52
+msgid "H3 tag"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:43, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:53
+msgid "H2 tag"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:44, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:54
+msgid "H4 tag"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:45, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:55
+msgid "P tag"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:52
+msgid "Heading text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:53, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:105
+msgid "Text to appear in slide layer"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:58
+msgid "Heading text color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:59, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:111
+msgid "Select a color for your text in layer"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:61, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:113
+msgid "Inherited"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:62, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:114
+msgid "First theme main color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:63, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:115
+msgid "Second theme main color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:64, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:116
+msgid "Dark grey theme color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:65, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:117
+msgid "Dark theme color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:66
+msgid "Light grey theme color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:73
+msgid "Heading text weight"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:74, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:86, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:125
+msgid "Select a weight for your text in layer"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:76, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:67, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:127
+msgid "Normal"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:77, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:128
+msgid "Bold"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:78, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:129
+msgid "Thin"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:85
+msgid "Heading text transform"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:89, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:140
+msgid "Lowercase"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:90, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:141
+msgid "Uppercase"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:91, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:142
+msgid "Capitalize"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/table/options.php:14
+msgid "Tabular table style"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/table/options.php:16
+msgid "Bootstrap Default"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/table/options.php:17
+msgid "Bootstrap Striped"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/table/options.php:18
+msgid "Bootstrap Bordered"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/table/options.php:19
+msgid "Theme style"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:8, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:10
+msgid "Tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:9, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:11
+msgid "Add/Edit Tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:15
+msgid "Tab Title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:19
+msgid "Tab Content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:24
+msgid "Tab Featured Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:25
+msgid "Featured image for your tab"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:26
+msgid "Image for your tab. It appears on the top of your tab content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:31
+msgid "Icon in tab title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:39
+msgid "Small Tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:40
+msgid "Decrease tabs size"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:53, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:60
+msgid "Top color border"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:54, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:61
+msgid "Add top color border to tab content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:57, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:64
+msgid "No top border"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:61, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:68
+msgid "Color top border"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:9
+msgid "Team Member Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:10, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:43, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:77
+msgid "Either upload a new, or choose an existing image from your media library"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:14
+msgid "Team Member Name"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:15
+msgid "Name of the person"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:20
+msgid "Team Member Job Title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:21
+msgid "Job title of the person."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:26
+msgid "Team Member Description"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:27
+msgid "Enter a few words that describe the person"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/config.php:8
+msgid "Teaser Icon Box"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/config.php:9
+msgid "Add a various teaser icon boxes"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:19
+msgid "Show teaser button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:41
+msgid "Center teaser contents"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:58, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:150
+msgid "Choose an Icon"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:64
+msgid "Icon Size"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:66
+msgid "Small"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:68
+msgid "Big"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:75
+msgid "Select one of predefined icon styles. If not set - no icon will appear."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:102
+msgid "Teaser Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:103
+msgid "Image for your teaser."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:104
+msgid "Image for your teaser. Image can appear as an element, or background or even can be hidden depends from chosen teaser type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:115
+msgid "Count To Number"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:116
+msgid "Choose value to count to"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:121
+msgid "Add some text after counter"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:122
+msgid "You can add \"+\", \"%\", decimal values etc."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:132
+msgid "Counter Speed (counter teaser only)"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:168
+msgid "Teaser Title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:173
+msgid "Teaser link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:184
+msgid "Teaser Type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:185
+msgid "Select one of predefined teaser types"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:216
+msgid "Clickable Icon/Image"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:217
+msgid "Works only, if \"Teaser link\" is not blank"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:229
+msgid "Teaser Box Style"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:242
+msgid "Teaser text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teaser/options.php:243
+msgid "Enter desired teaser content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/config.php:7
+msgid "Teasers in Row"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/config.php:8
+msgid "Several teasers in row"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:11
+msgid "Column width for teasers row"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:13
+msgid "Choose teaser width inside teasers row"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:15, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:25
+msgid "1/1"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:37
+msgid "Teasers in row"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-row/options.php:38, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:48
+msgid "Add/Edit Teasers in tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/config.php:7
+msgid "Teasers in Tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/config.php:8
+msgid "Show Bootstrap tabs with teasers"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:21
+msgid "Column width in tab content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:23
+msgid "Choose teaser width inside tab content"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:47
+msgid "Teasers in tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/teasers-tabs/options.php:49
+msgid "Create your teasers in tabs"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:8
+msgid "Optional Testimonials Title"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:19
+msgid "Testimonials Layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:20
+msgid "Select one of predefined testimonials layout"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:22
+msgid "Big FlexSlider Carousel"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:23
+msgid "Single Testimonial"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:30
+msgid "Testimonials"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:31
+msgid "Add/Edit Testimonial"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:32
+msgid "Here you can add, remove and edit your Testimonials."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:37, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:71
+msgid "Quote"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:38, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:72
+msgid "Enter the testimonial here"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:48, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:82
+msgid "Enter the Name of the Person to quote"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:52, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:86
+msgid "Position"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:53, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:87
+msgid "Can be used for a job description"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:57, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:91
+msgid "Website Name"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:58, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:92
+msgid "Linktext for the above Link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:62, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:96
+msgid "Website Link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:63, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:97
+msgid "Link to the Persons website"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:9
+msgid "Enter some content for this texblock"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/widget-area/config.php:5
+msgid "Widget Area"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/widget-area/config.php:6
+msgid "Add a Widget Area"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:24
+msgid "Date Time"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:57
+msgid "Time"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:58, wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:151
+msgid "Label"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:59
+msgid "Toggle mandatory field"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:60
+msgid "Edit"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:61
+msgid "Delete"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:62
+msgid "Edit Label"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:126
+msgid "This {label} field is required"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:131
+msgid "{label}: Submitted data contains not existing choice"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:152
+msgid "The label of the field that will be displayed to the users"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:153
+msgid "Select Time"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:159
+msgid "Mandatory Field?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:160
+msgid "If this field is mandatory for the user"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:167
+msgid "Placeholder"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:174
+msgid "Type field"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:175
+msgid "How do you want to use the field?"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:177
+msgid "Date/Time"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:178
+msgid "Just Date"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:179
+msgid "Just Time"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/views/carousel.php:72, wp-content/themes/towy/framework-customizations/extensions/shortcodes/shortcodes/posts/views/isotope.php:189
+msgid "View not found"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:8
+msgid "Contact form"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:9
+msgid "Build contact forms"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:15
+msgid "Form Fields"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:44
+msgid "Contact Form Options"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:50
+msgid "Form Background color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:54
+msgid "No background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:63
+msgid "Column paddings in form"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:78
+msgid "Email To"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:79
+msgid "We recommend you to use an email that you verify often"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:80
+msgid "The form will be sent to this email address."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:92
+msgid "Subject Message"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:93
+msgid "This text will be used as subject message for the email"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:94
+msgid "Contact Form"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:103
+msgid "Submit Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:104
+msgid "This text will appear in submit button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:105
+msgid "Send"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:109
+msgid "Reset Button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:110
+msgid "This text will appear in reset button. Leave blank if reset button not needed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:111
+msgid "Clear"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:116
+msgid "Button color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:119, wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:16
+msgid "Color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:133
+msgid "Success Message"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:134
+msgid "This text will be displayed when the form will successfully send"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:135
+msgid "Message sent!"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:141
+msgid "Failure Message"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:142
+msgid "This text will be displayed when the form will fail to be sent"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:143
+msgid "Oops something went wrong."
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:150
+msgid "Mailer Options"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:9
+msgid "Slide background"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:10
+msgid "Select slide background color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:13
+msgid "Light Muted"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:15
+msgid "Dark Muted"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:27
+msgid "Slide text alignment"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:28
+msgid "Select slide text alignment"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:43
+msgid "Slide Layers"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:49
+msgid "Layer tag"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:104
+msgid "Layer text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:110
+msgid "Layer text color"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:124
+msgid "Layer text weight"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:136
+msgid "Layer text transform"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:137
+msgid "Select a text transformation for your layer"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:147
+msgid "Slider Layer"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:156
+msgid "Slide button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:157
+msgid "Select slide button. Leave empty if no button needed"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:160
+msgid "Regular button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:161
+msgid "Color button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:162
+msgid "Color2 button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:163
+msgid "Inverse button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:164
+msgid "Scroll button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:176
+msgid "Slide button text"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:177
+msgid "Text in button"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:182
+msgid "Slide button link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:183
+msgid "Paste a link"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/options/custom.php:188
+msgid "Button animation type"
+msgstr ""
+
+#: wp-content/themes/towy/framework-customizations/extensions/media/extensions/slider/extensions/theme-slider/views/theme-slider.php:33
+msgid "Logo"
+msgstr ""

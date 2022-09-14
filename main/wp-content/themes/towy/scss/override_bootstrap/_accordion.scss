@@ -1,0 +1,102 @@
+/*collapse accordion*/
+.panel-heading {
+	.panel-title {
+		font-size: inherit;
+		letter-spacing: 0;
+		padding: 0;
+		position: relative;
+	}
+	.panel-title > a {
+		line-height: 1;
+		font-size: 16px;
+		font-weight: bold;
+		display: block;
+		padding: 18px 50px 18px 20px;
+		background-color: $mainColor;
+		color: $lightColor;
+		border: 1px solid $mainColor;
+		border-radius: 0	;
+		word-wrap: break-word;
+	}
+
+	.panel-title > a:hover {
+		color: $lightColor;
+	}
+	.panel-title > a.collapsed:hover {
+		color: $lightColor;
+	}
+
+	.panel-title > a.collapsed {
+		background-color: $lightColor;
+		color: $fontColor;
+	}
+	.panel-title > a.collapsed:hover {
+		background-color: $mainColor;
+	}
+
+	.panel-title > a:after {
+		color: $lightColor;
+		content: '-';
+		position: absolute;
+		line-height: 54px;
+		font-weight: 400;
+		text-align: center;
+		font-size: 26px;
+		right: 0;
+		top:0;
+		bottom: 0;
+		width: 60px;
+		letter-spacing: 0;
+	}
+	.panel-title > a.collapsed:after {
+		content: '+';
+		color: $mainColor;
+	}
+	.panel-title > a.collapsed:hover:after {
+		color: $lightColor;
+	}
+	.panel-title > a > i {
+		position: relative;
+		top: 1px;
+		padding-right: 12px;
+	}
+}
+.panel {
+	box-shadow: none;
+}
+.panel-group .panel {
+	border-radius: 0;
+	background-color: $lightColor;
+}
+.panel-default > .panel-heading {
+	background-color: $lightColor;
+	color: inherit;
+	position: relative;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+.panel-default {
+	border-color: $lightColor;
+}
+.panel-group .panel + .panel {
+	margin-top: 10px;
+}
+.panel-body {
+	border: 1px solid transparent;
+	//!important is necessary
+	border-top:none !important;
+	.media-left {
+		padding-right: 28px;
+		.img-circle {
+			max-width: 50px;
+		}
+		img {
+			max-width: 80px;
+		}
+	}
+}
+.panel-group .panel-heading + .panel-collapse .panel-body {
+	padding: 23px 30px 11px;
+	border-radius: 0px;
+}

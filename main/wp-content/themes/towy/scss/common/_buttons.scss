@@ -1,0 +1,226 @@
+/* 
+**buttons 
+*/
+
+.theme_buttons a,
+.theme_button,
+//for shop
+.wc-proceed-to-checkout  .checkout-button,
+.buttons a,
+button,
+input[type="submit"]{
+	font-size: 16px;
+	font-weight: 700;
+	padding: 15px 25px 15px;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	line-height: 1;
+	display: inline-block;
+	min-width: 8.5em;
+	text-align: center;
+	color: $lightColor;
+	border: 3px solid $darkgreyColor;
+	background-color: $darkgreyColor;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	position: relative;
+
+	@include elementTransition(all, 0.4s, linear, 0s);
+
+}
+//removing reset button for WP
+.theme_button[type="reset"] {
+	display: none;
+}
+.simple_link{
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.theme_buttons.color1 a,
+.theme_button.color1,
+//for shop
+.button.alt,
+.wc-proceed-to-checkout .checkout-button,
+.widget_price_filter button,
+.form-submit [type="submit"]
+{
+	background-color: $mainColor;
+	border-color: $mainColor;
+	color: $lightColor;
+}
+.theme_buttons.color1 a:active,
+.theme_buttons.color1 a:hover,
+.theme_buttons.color1 a:focus,
+.theme_button.color1:active,
+.theme_button.color1:hover,
+.theme_button.color1:focus {
+	background-color: transparent;
+	border-color: $mainColor;
+	color: $mainColor;
+}
+
+
+.theme_buttons.color2 a,
+.theme_button.color2 {
+	background-color: $darkgreyColor;
+	border-color: $darkgreyColor;
+	color: $mainColor;
+}
+.theme_buttons.color2 a:active,
+.theme_buttons.color2 a:hover,
+.theme_buttons.color2 a:focus,
+.theme_button.color2:active,
+.theme_button.color2:hover,
+.theme_button.color2:focus {
+	background-color: transparent;
+	border-color: $darkgreyColor;
+	color: $darkgreyColor;
+}
+
+.ds {
+	.theme_buttons.color2 a,
+	.theme_button.color2 {
+		background-color: $fontColor;
+		border-color: $fontColor;
+		color: $mainColor;
+	}
+	.theme_buttons.color2 a:active,
+	.theme_buttons.color2 a:hover,
+	.theme_buttons.color2 a:focus,
+	.theme_button.color2:active,
+	.theme_button.color2:hover,
+	.theme_button.color2:focus {
+		background-color: transparent;
+		border-color: $fontColor;
+		color: $fontColor;
+	}
+}
+
+.cs {
+	.theme_buttons.color2 a,
+	.theme_button.color2 {
+		background-color: $darkgreyColor;
+		border-color: $darkgreyColor;
+		color: $mainColor;
+	}
+	.theme_buttons.color2 a:active,
+	.theme_buttons.color2 a:hover,
+	.theme_buttons.color2 a:focus,
+	.theme_button.color2:active,
+	.theme_button.color2:hover,
+	.theme_button.color2:focus {
+		background-color: transparent;
+		border-color: $darkgreyColor;
+		color: $darkgreyColor;
+	}
+}
+
+.theme_buttons a:active,
+.theme_buttons a:hover,
+.theme_buttons a:focus,
+.theme_button:active,
+.theme_button:hover,
+.theme_button:focus {
+	color: rgba($lightColor, 0.7);
+	opacity: 1;
+	text-decoration: none;
+	outline: none;
+
+	@include elementTransition(all, 0.05s, linear, 0s);
+}
+.buttons a:active,
+.buttons a:hover,
+.buttons a:focus {
+	color: $lightColor !important;
+}
+.theme_buttons a:active,
+.theme_button:active {
+	top: 1px;
+}
+.theme_buttons.inverse a,
+.theme_button.inverse {
+	color: $darkgreyColor;
+	background-color: transparent;
+	border: 3px solid $darkgreyColor;
+}
+
+.muted_buttons a,
+.muted_button {
+	opacity: 0.2;
+}
+.small_buttons a,
+.small_button {
+	padding: 2px 7px 0px;
+	text-transform: uppercase;
+	font-weight: 100;
+	min-width: auto;
+}
+.square_buttons a,
+.square_button {
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: auto;
+}
+.wide_buttons a,
+.wide_button {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.block_buttons a,
+.block_button {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+/*icons in headings, paragraphs and buttons*/
+h1>[class*="rt-icon"],
+h2>[class*="rt-icon"],
+h3>[class*="rt-icon"],
+h4>[class*="rt-icon"],
+h5>[class*="rt-icon"],
+h6>[class*="rt-icon"]{
+	font-size: 1.2em;
+	position: relative;
+	top: .17em;
+	line-height: 0;
+	padding-right: 0.1em;
+}
+p>[class*="rt-icon"] {
+	font-size: 1.1em;
+	position: relative;
+	top: .1em;
+	line-height: 0;
+	padding: 0 0.2em;
+	& + [class*="rt-icon"] {
+		margin-left: -0.75em;
+	}
+}
+.theme_buttons a > [class*="rt-icon"],
+.theme_button>[class*="rt-icon"] {
+	font-size: 1.8em;
+	line-height: 0;
+	position: relative;
+	top: 5px;
+	padding: 0 3px;
+}
+
+.theme_buttons a >[class*="glyphicon"],
+.theme_buttons a >[class*="fa-"],
+.theme_button>[class*="glyphicon"],
+.theme_button>[class*="fa-"] {
+	font-size: 1.5em;
+	position: relative;
+	top: 3px;
+	line-height: 0;
+}
+.theme_buttons a >[class*="rt-icon"],
+.theme_buttons a >[class*="glyphicon"],
+.theme_buttons a >[class*="fa-"],
+.theme_button>[class*="rt-icon"],
+.theme_button>[class*="glyphicon"],
+.theme_button>[class*="fa-"] {
+
+}

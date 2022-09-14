@@ -1,0 +1,4 @@
+[16-Jul-2022 05:54:31 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Api\V1\BaseController' not found in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Payment/PaymentController.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Controllers/Api/V1/Payment/PaymentController.php on line 29

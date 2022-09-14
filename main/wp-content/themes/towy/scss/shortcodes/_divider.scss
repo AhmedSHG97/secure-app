@@ -1,0 +1,31 @@
+/* dividers */
+.fw-divider-zebra {
+	.divider_left {
+		margin-left: 0;
+		text-align: left;
+	}
+	.divider_right {
+		margin-right: 0;
+		text-align: right;
+	}
+	.divider_center {
+	}
+	.zebra_bg {
+      margin-top: 20px;
+      margin-bottom: 20px;
+		width: 30px;
+		height: 3px;
+		background-color: transparent;
+		background-image: -webkit-linear-gradient(135deg, transparent 10%, $mainColor 10%, $mainColor 50%, transparent 50%, transparent 60%, $mainColor 60%, $mainColor);
+		background-image: linear-gradient(-45deg, transparent 10%, $mainColor 10%, $mainColor 50%, transparent 50%, transparent 60%, $mainColor 60%, $mainColor);
+		background-size: 7px 7px;
+	}
+}
+.cs {
+	.fw-divider-zebra {
+		.zebra_bg {
+			background-image: -webkit-linear-gradient(135deg, transparent 10%, $darkgreyColor 10%, $darkgreyColor 50%, transparent 50%, transparent 60%, $darkgreyColor 60%, $darkgreyColor);
+			background-image: linear-gradient(-45deg, transparent 10%, $darkgreyColor 10%, $darkgreyColor 50%, transparent 50%, transparent 60%, $darkgreyColor 60%, $darkgreyColor);
+		}
+	}
+}

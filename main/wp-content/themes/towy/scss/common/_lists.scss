@@ -1,0 +1,120 @@
+/*
+**styled lists
+*/
+ul, ol {
+	padding-left: 30px;
+}
+.list1 ul,
+ul.list1 {
+	list-style:none;
+	padding: 0;
+	margin: 25px 0;
+	.padding_30 & {
+		margin: 0;
+	}
+}
+.list1 li{
+	position: relative; 
+	padding: 9px 0 10px 30px;
+	border-bottom: 1px solid $borderColorRGBA;
+	.muted_background &{
+		border-color: rgba($lightColor, 0.4);
+	}
+	& > .media {
+		margin: 3px 0 0;
+	}
+}
+.list1.no-bullets li {
+	padding-left: 0;
+	&:before {
+		display: none;
+	}
+}
+.list1 li:first-child {
+	border-top: 1px solid $borderColorRGBA;
+}
+.list1.no-top-border {
+	li:first-child {
+		border-top: none;
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+.list1.no-bottom-border {
+	li:last-child {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+.list1 li:before{
+	content: '';
+	display: block;
+	position: absolute;
+	border: 1px solid $mainColor;
+	left:10px;
+	top: 17px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+ }
+
+.list2 ul,
+ul.list2 {
+	list-style:none;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.list2 li{
+	position: relative;
+	padding: 3px 0 3px 5px;
+	font-size: 16px;
+	color: $darkgreyColor;
+	&:first-child {
+		padding-top: 0;
+		&:before {
+			top: 0;
+		}
+	}
+}
+.ds {
+	.list2 li {
+		color: $lightColor;
+	}
+}
+.list2 li:before{
+	font-family: 'FontAwesome';
+	font-size: 16px;
+	color: $mainColor;
+	content: "\f00c";
+	position: absolute;
+	left:-21px;
+	top: 4px;
+}
+.list3 ol,
+ol.list3 {
+	counter-reset: li;
+	list-style: none outside none;
+	padding: 0;
+}
+.list3 li{
+	position: relative;
+	padding: 8px 0 8px 42px;
+}
+.list3 li:after{
+	content: counter(li, decimal-leading-zero);
+	counter-increment: li;
+	position: absolute;
+	left:2px;
+	top:50%;
+	margin-top: -15px;
+	font-weight: 700;
+	color: inherit;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: $lightColor;
+	background-color: $mainColor;
+	border-radius: 100%;
+}

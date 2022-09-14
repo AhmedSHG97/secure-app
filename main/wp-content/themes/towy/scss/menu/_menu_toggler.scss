@@ -1,0 +1,96 @@
+/* mobile menu toggler */
+.toggle_menu {
+	position: absolute;
+	top: 10px;
+	left: auto;
+    right: 0;
+	margin-left: -30px;
+	display: none;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	z-index: 1001;
+	visibility: visible;
+    &.toggle_menu_side_special{
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $mainColor;
+      color: $lightColor;
+      width: 40px;
+      height: 40px;
+      position: static;
+      margin-left: 0;
+      box-shadow: none;
+      border-radius: 50%;
+    }
+	.header_white & {
+		span, 
+		span:before, 
+		span:after {
+			background-color: $darkgreyColor;
+		}
+	}
+
+
+	.page_toplogo & {
+		position: fixed;
+		top: 0;
+		left: auto;
+		right: 0;
+		background-color: $darkgreyColor;
+		margin: 0;
+	}
+	.page_toplogo &.mobile-active {
+		
+		
+	}
+
+	.header_logo_center & {
+		right: 30px;
+		left: auto;
+	}
+
+	
+
+	&.sticked {
+	}
+	&:hover {
+
+		span, 
+		span:before,
+		span:after {
+		}
+	}
+	&:hover span:before {
+		top: -7px;
+	}
+	&:hover span:after {
+		top: 7px;
+	}
+
+	span, 
+	span:before, 
+	span:after {
+		display: block;
+		width: 24px;
+		height: 2px;
+		position: absolute;
+		background-color: $lightColor;
+		content: '';
+		left:0;
+		@include elementTransition();
+	}
+	span {
+		left: 18px;
+		top: 50%;
+		margin-top: -1px;
+	}
+	span:before {
+		top: -6px;
+	}
+	span:after {
+		top: 6px;
+	}
+}

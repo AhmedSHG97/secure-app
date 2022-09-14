@@ -1,0 +1,138 @@
+/*forms*/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select,
+.form-control {
+	height: 50px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: $borderColor;
+	background-color: transparent;
+	border-radius: 0;
+	color: $fontColor;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	font-size: 16px;
+	font-weight: 600;
+}
+textarea {
+	height: auto;
+}
+
+/* select styling */
+.form-control option {
+	color: $darkgreyColor;
+	background-color: $lightColor;
+}
+   
+	
+//TODO Style for wordpress search widget
+.form-inline .form-control {
+}
+.form-control, .form-control:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.form-control.invalid {
+	-webkit-box-shadow: 0 0 0 2px $mainColor;
+	box-shadow: 0 0 0 2px $mainColor;
+}
+.form-control:focus {
+	border-color: $mainColor;
+}
+.form-control:-moz-placeholder {
+	color: $darkFontColor;
+	font-weight: 600;
+	opacity: 1;
+}
+.form-control::-moz-placeholder {
+	font-style: normal;
+	font-weight: 600;
+	color: $darkFontColor;
+	opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+	font-style: normal;
+	color: $darkFontColor;
+	font-weight: 600;
+}
+
+.form-control::-webkit-input-placeholder {
+	font-style: normal;
+	color: $darkFontColor;
+	font-weight: 600;
+}
+
+select.form-control:focus {
+	color: $mainColor;
+}
+
+input.form-control:focus {
+	color: $mainColor;
+}
+
+input.form-control:focus:-moz-placeholder {
+	color: $mainColor;
+}
+input.form-control:focus::-moz-placeholder {
+	color: $mainColor;
+}
+input.form-control:focus:-ms-input-placeholder {
+	color: $mainColor;
+}
+input.form-control:focus::-webkit-input-placeholder {
+	color: $mainColor;
+}
+
+/*icons for forms */
+form label + [class*="icon2-"] {
+	position: absolute;
+	font-size: 24px;
+	color: $fontColor;
+	left: 10px;
+	top: 19px;
+}
+form label + [class*="icon2-"] + .form-control {
+	padding-left: 50px;
+}
+
+label {
+	font-weight: normal;
+}
+
+.form-control + [class*="icon2-"] {
+	position: absolute;
+	font-size: 24px;
+	left: 20px;
+	top: 50%;
+	color: $mainColor;
+}
+
+input[type=checkbox], 
+input[type=radio] {
+}
+
+//for wordpress widgets wrapper
+.form-wrapper {
+	&.with_background,
+	&.muted_background,
+	&.cs,
+	&.ds,
+	&.ls {
+		padding: 35px;
+	}
+}
+.wrap-forms {
+	.form-builder-item {
+		margin-bottom: 15px !important;
+	}
+}

@@ -1,0 +1,8 @@
+[14-Jul-2022 21:10:39 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Base\Libraries\SMS\Exceptions\SMSFailException' not found in /home/bennebostaxi/public_html/app/Base/Libraries/SMS/Exceptions/SMSInsufficientCreditsException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Base/Libraries/SMS/Exceptions/SMSInsufficientCreditsException.php on line 5
+[14-Jul-2022 21:11:06 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Base\Libraries\SMS\Exceptions\SMSFailException' not found in /home/bennebostaxi/public_html/app/Base/Libraries/SMS/Exceptions/SMSMaxNumbersException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Base/Libraries/SMS/Exceptions/SMSMaxNumbersException.php on line 5

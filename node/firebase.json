@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bennebostaxi",
+  "private_key_id": "7fa178cc6457d0dcecb46ff490d2e79ba80320b2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDO5n7d9h3sqSo0\nKjVuu3Pk7wP2O5ATjIkD22OoE4u2B9E1xkKNrbpNUCdZMVyewYqsQA8LKJ5KYM8C\ndhdRNc/qQc9Jk08Y+XRaYiqbGOYkbChyhT5Tu9Xvjn+jcsNez7muJnGFJqjaVPPY\nGs0fci9uNTx/Qdg5H8HxHPreIo9DGrHtOZZXg8oAnE09nWCfAk4a5oyuVUaFaRcL\nDV9D1Pqld0dJnPqID4dnogvOC/7G05RWmDHij79YhryvKO8J4oiX/jJ7pRPLVLVn\nn9DqkyRmKh+MRCylemYS6yU725hkT5drtUv4a7R9j9pOpUhBdZGjET7MHE/adzpB\nHmiOwL+RAgMBAAECggEAH/y9FCuMVdM+LfbGmwTfy+meBwVkvCOn5+Y/woj/D8NR\nTMsxl+jfhZDE/Jen66LILI2c0HX/qZ0iSWL2Lj0vv1ZcVKeHJ454Ns8Nf5FlEgV8\nvV6B6SfVpqXfxZElHl/mzkNYR/nW9NEEgAkoua9ey4mZ0veG6nymmynb/oLWUPfP\nSnekAgN02PC5n1G81MgYY8OtkXlroDyyY8JJaiMknxb7nu6PvF7sYSQ/yesSPsXx\npPa2WT1j9cxvOHiOlfJd7K3rVVyyxs2IHpvw3OJI3vwgzJ83VIkX0T2AnNjELOQM\nZ8T4KCN2F5CBLA/Ye4hb4EKXbaj7VYVXBu/ND0marwKBgQD8UxYAuZbk/cGil0Rh\nRGklugURF6rTmCrUaQLh3/TTboaBJQOO0ahxAOdR4957zVN/vKBTKOxDPANfX3Ic\nY4WpTfMCoqewRSr9FyP5AKIhptzzditSbRivHggNzko8FgSw+BkDANoFVofLJShd\nsjDsG0nLJEz+0gc618aAowFr2wKBgQDR6gYLeZkOji2Hf9ZXxI6+aF3DKdhb6wHm\nkZnXQ3H1BZsbuKZOcYgjOwhe4Hu9WgDkpyo643gOSaMEp7efG2NSkZao07q80p94\nYRcoqhYOlgZv1/WBo7SZea1tB27LyL9RmeZxWzpkfIM3hvJaD9aqbL7H36MxltqM\nNlkhpbw0AwKBgQDc2JfsgIPa32NovL8j5y2k0KD4qd9hndD24wabzlpJ6HYfeNcZ\nXNXyOlk8qpYjg74uklk9EBdibZeCFVcaE918JvaoetcMiC2tIWDh4zUFAThoeyhF\n16kANOfVtZXx60+l2TCDGW65t1fZbSdcgschEG1ROO+PJSMg1JUwJ/vpewKBgBq8\nPrbZbugOrbfTTV5yV2fi7QY9XyQd42kVZE2pdmspop6+PthA14D9NMy4tKniO7jj\nnZpQfGr9b/jYz6dBGr5acqDgDqmb/dmcLBHuz85dx0YZcFhpnEfr2m3Hg5IK6Gsh\nOdt4LhC8Vw4MbvOPjty36viUADoBp6YyCdoiPL03AoGALvaMbf0iDSei/rSjOHfq\njfQhU5WNSGN4MpO2rXUREwrWa4aeGBmT4uSMAcmDbrxezz9ZdFobk9i7kRYhYhMM\nNGspbp4MSakg7ZH41ge+J8VVyOwqGdnB8iR5L0wIu8RYR1YEe0PlMEC6VnXQUmkA\n8e6a7yEJ/WP7fN9Of6wED0c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3ie2y@bennebostaxi.iam.gserviceaccount.com",
+  "client_id": "109842449829631071911",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3ie2y%40bennebostaxi.iam.gserviceaccount.com"
+}

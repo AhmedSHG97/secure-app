@@ -1,0 +1,20 @@
+/*widget_tag_cloud*/
+.widget_tag_cloud a {
+	border: 1px solid $borderColor;
+	padding: 4px 20px;
+	margin: 0 4px 10px 0;
+	font-size: inherit !important;
+	display: inline-block;
+	aside & {
+		color: $darkgreyColor;
+		&:hover {
+			color: $lightColor;
+		}
+	}
+}
+
+.widget_tag_cloud a:hover {
+	background-color: $mainColor;
+	border-color: $mainColor;
+	color: $lightColor;
+}

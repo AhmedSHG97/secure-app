@@ -1,0 +1,4 @@
+[07-Jul-2022 03:42:31 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Requests\BaseRequest' not found in /home/bennebostaxi/public_html/app/Http/Requests/Master/MobileBuildRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Requests/Master/MobileBuildRequest.php on line 7

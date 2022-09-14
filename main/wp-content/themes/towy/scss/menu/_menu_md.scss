@@ -1,0 +1,328 @@
+/*
+**main menu styles
+*/
+
+@media(min-width:992px){
+	.mainmenu_wrapper {
+		position: relative;
+	}
+
+	/* menu layout */
+	.sf-menu, .sf-menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.sf-menu li {
+		position: relative;
+	}
+	.sf-menu li > ul {
+		position: absolute;
+		display: none;
+		top: 100%;
+		z-index: 99;
+        margin-top: 0 !important;
+	}
+
+	/* sub-menu skin */
+	.sf-menu .sub-menu {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.sf-menu .sub-menu:after {
+		content: "";
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background-color: $mainColor;
+		background-image: -webkit-linear-gradient(135deg, $darkgreyColor 20%, $mainColor 20%, $mainColor 50%, $darkgreyColor 50%, $darkgreyColor 70%, $mainColor 70%, $mainColor);
+		background-image: linear-gradient(-45deg, $darkgreyColor 20%, $mainColor 20%, $mainColor 50%, $darkgreyColor 50%, $darkgreyColor 70%, $mainColor 70%, $mainColor);
+		background-size: 8px 8px;
+	}
+	.sf-menu .sub-menu li a {
+		padding: 10px 0 10px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.sf-menu .sub-menu li:last-child a {
+		border-bottom: 0;
+	}
+	.sf-menu .sub-menu > li > a:before {
+		content: "\f013";
+		font-family: FontAwesome;
+		padding-right: 15px;
+		font-size: 12px;
+		position: relative;
+		top: -1px;
+		color: rgba(35, 35, 35, 0.1);
+		-webkit-transition: all 0.3s ease-in-out 0s;
+		transition: all 0.3s ease-in-out 0s;
+	}
+	.sf-menu .sub-menu > li:hover > a,
+	.sf-menu .sub-menu > li:hover > a:before {
+		color: $mainColor;
+	}
+
+	.sf-menu li:hover > ul,
+	.sf-menu li.sfHover > ul {
+		display: block;
+	}
+
+	.sf-menu a {
+		display: block;
+		position: relative;
+	}
+	.sf-menu li > ul > li > ul {
+		top: -10px;
+		left: 100%;
+	}
+
+
+	/* menu skin */
+	.sf-menu a {
+		text-decoration: none;
+		zoom: 1; /* IE7 */
+		-webkit-transition-property: color, background-color, border-color;
+		-moz-transition-property: color, background-color, border-color;
+		-ms-transition-property: color, background-color, border-color;
+		-o-transition-property: color, background-color, border-color;
+		transition-property: color, background-color, border-color;
+	}
+	.sf-menu li {
+		white-space: nowrap; /* no need for Supersubs plugin */
+		*white-space: normal; /* ...unless you support IE7 (let it wrap) */
+		-webkit-transition: background .2s;
+		transition: background .2s;
+	}
+	.sf-menu > li {
+		display: inline-block;
+		position: relative;
+		// removing inline-block margins
+		margin: 0 -2px;
+	}
+
+	.sf-menu > li:first-child > a{
+		margin-left: 0 !important;
+	}
+	.sf-menu > li > a{
+		font-size: 18px;
+		font-weight: 600;
+		padding-top: 27px;
+		padding-bottom: 28px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.sf-menu > li > a:hover, 
+	.sf-menu > li.active > a {
+		color: $mainColor;
+	}
+
+	.bordered_items {
+		.sf-menu {
+			text-align: center;
+		}
+		.sf-menu > li {
+			padding: 0;
+		}
+
+		.sf-menu > li > a{
+		}
+		.sf-menu > li > a:hover, 
+		.sf-menu > li.active > a {
+		}
+
+		.sf-menu > li  + li:before{
+			content: '';
+			width: 1px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			background-color: $darkBorderColor;
+		}
+	}
+
+	.header_white {
+		.sf-menu > li > a{
+			color: $darkgreyColor;
+		}
+		.sf-menu > li > a:hover, 
+		.sf-menu > li.active > a {
+			color: $mainColor;
+		}
+
+		.sf-menu > li  + li:before{
+			background-color: $borderColor;
+		}
+
+	}
+	.header_transparent,
+	.header_darkgrey {
+		.sf-menu > li > a {
+			color: $lightColor;
+		}
+		.sf-menu > li > a:hover, 
+		.sf-menu > li.current-menu-item > a {
+			color: $mainColor;
+		}
+		.sf-menu > li.current-menu-item > a:hover {
+			color: $lightColor;
+		}
+	}
+	.header_gradient {
+		.sf-menu > li > a {
+			color: $lightColor;
+		}
+		.sf-menu > li > a:hover, 
+		.sf-menu > li.active > a {
+			color: $darkgreyColor;
+		}
+	}
+
+	.sf-menu li:hover,
+	.sf-menu li.sfHover {
+		/* only transition out, not in */
+		-webkit-transition: none;
+		transition: none;
+	}
+
+	 /* second and next levels */
+	.sf-menu > li .mega-menu,
+	.sf-menu li > ul {
+		margin-top: 10px;
+		text-align: left;
+		list-style: none;
+		padding: 10px 0;
+		background-color: $lightColor;
+		box-shadow: 0 2px 3px rgba(0,0,0,.1);
+		min-width: 15em; /* allow long menu items to determine submenu width */
+		*width: 14em; /* no auto sub width for IE7, see white-space comment below */
+	}
+	.sf-menu ul a {
+		color: $darkgreyColor;
+	}
+	.sf-menu .mega-menu ul {
+		box-shadow: none;
+		padding: 0;
+	}
+	.sf-menu .mega-menu ul a {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.sf-menu ul a:hover,
+	.sf-menu ul li.active > a {
+		color: $mainColor;
+	}
+	/* third level */
+	.sf-menu ul ul {
+		margin-top: 0;
+		margin-left: 31px;
+	}
+
+	/* styling for both css and generated arrows */
+	.sf-arrows .sf-with-ul:after {
+		font-family: 'FontAwesome';
+		content: "\f107";
+		padding-left: 5px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+	/* styling for right-facing arrows */
+	.sf-arrows ul .sf-with-ul:after {
+		content: '';
+
+	}
+}
+
+/* common paddings */
+@media(min-width:992px){
+	.sf-menu > li > a{
+		padding-left: 2px;
+		padding-right: 0px;
+	}
+	.boxed .sf-menu > li > a{
+	}
+	.bordered_items {
+		.sf-menu > li > a{
+			padding-right:40px;
+			padding-left: 44px;
+		}
+	}
+}
+/* -md- paddings */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.sf-menu > li > a {
+		padding-left: 9px;
+		padding-right: 8px;
+	}
+	.boxed .sf-menu > li > a{
+	}
+	
+	.bordered_items {
+		.sf-menu > li > a{
+			padding-right: 20px;
+			padding-left: 24px;
+		}
+	}
+}
+@media (min-width: 992px) {
+	.sf-menu > li > a {
+		margin-right: 14px;
+		margin-left: 14px;
+	}
+}
+/* -lg- paddings */
+@media(min-width: 1200px){
+	.sf-menu > li > a {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		margin-left: 28px;
+		margin-right: 28px;
+		.boxed .col-md-6 & {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+@media (min-width: 1600px) {
+	.header_logo_center {
+		.sf-menu > li > a {
+			margin-right: 60px;
+			margin-left: 60px;
+		}
+	}
+}
+@media (min-width: 1800px) {
+	.header_logo_center {
+		.sf-menu > li > a {
+			margin-right: 80px;
+			margin-left: 80px;
+		}
+	}
+}
+
+.sf-menu i[class] {
+	padding-right:7px;
+	font-size:1.1em;
+}
+
+/* hidden menu items */
+@media(min-width: 992px) {
+	.sf-menu .sf-md-hidden {
+		display: none !important;
+	}
+
+}
+@media(max-width: 991px) {
+	.sf-more-li {
+		display: none;
+	}
+}

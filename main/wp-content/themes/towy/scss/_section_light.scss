@@ -1,0 +1,108 @@
+/**light section - .ls*/
+.ls {
+	background-color: $lightColor;
+	color:$fontColor; 
+	h1, 
+	h2, 
+	h3, 
+	h4, 
+	h5, 
+	h6 {
+		color: $darkgreyColor;
+		a {
+			color: inherit;
+			&:hover {
+				color: $mainColor;
+			}
+		}
+	}
+
+	a {
+		color: $mainColor;
+		&:hover {
+			color: $darkgreyColor;
+		}
+	}
+
+
+	.theme_button.inverse a,
+	.theme_button.inverse {
+		color: $darkgreyColor;
+
+		&:hover, &:focus {
+			color: rgba($darkgreyColor, 0.7);
+		}
+		i {
+			color: $darkgreyColor;
+		}
+	}
+
+	.small_buttons a,
+	.small_button {
+		color: $mainColor;
+		&:hover {
+			color: $lightColor;
+		}
+	}
+
+	.tag-links,
+	.categories-links {
+		a {
+			background-color: $mainColor;
+			color: $lightColor;
+			@include elementTransition(all, 0.4s, linear, 0s);
+			&:hover,
+			&:focus {
+				background-color: $mainColor;
+				opacity: 0.6;
+			}
+		}
+	}
+
+	.color-icon.bg-icon {
+		background-color: #f8f8f8;
+	}
+
+	.highlight {
+		color: $mainColor;
+	}
+	.highlight2 {
+		color: $mainColor;
+	}
+
+	.greylinks a {
+		color: $fontColor;
+		&:hover {
+			color: $mainColor;
+		}
+	}
+
+	.darklinks a {
+		color: $darkgreyColor;
+		&:hover {
+			color: $mainColor;
+		}
+	}
+
+	.pagination>li>a,
+	.pagination>li>span {
+		background-color: transparents;
+		color: $fontColor;
+	}
+	.pagination>li.active>a,
+	.pagination>li.active>span,
+	.pagination>li>a:hover,
+	.pagination>li>span:hover,
+	.pagination>li>a:focus,
+	.pagination>li>span:focus
+	{
+		background-color: transparent;
+		color: $mainColor;
+	}
+	.widget_mwt_twitter,
+	.widget_towy_twitter {
+		.tweet_time {
+			color: $mainColor;
+		}
+	}
+}

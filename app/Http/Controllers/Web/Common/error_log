@@ -1,0 +1,12 @@
+[26-Jul-2022 06:26:30 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\ApiController' not found in /home/bennebostaxi/public_html/app/Http/Controllers/Web/Common/CountryController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Controllers/Web/Common/CountryController.php on line 16
+[26-Jul-2022 06:30:06 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Web\BaseController' not found in /home/bennebostaxi/public_html/app/Http/Controllers/Web/Common/ExceptionViewController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Controllers/Web/Common/ExceptionViewController.php on line 7
+[26-Jul-2022 06:37:11 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Web\BaseController' not found in /home/bennebostaxi/public_html/app/Http/Controllers/Web/Common/WebPasswordController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Http/Controllers/Web/Common/WebPasswordController.php on line 11

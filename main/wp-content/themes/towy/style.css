@@ -1,0 +1,201 @@
+/*
+Theme Name: Towy
+Theme URI: http://webdesign-finder.com/towy
+Author: MWTemplates
+Author URI: http://modernwebtemplates.com/
+Description: Towy - Towing Services WordPress theme
+Version: 1.5
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: custom-header, left-sidebar, right-sidebar, post-formats, full-width-template
+Text Domain: towy
+Domain Path: /languages
+
+This theme uses great Unyson Framework to make best user experience
+
+see css/main.css for all of the styles
+*/
+
+
+/*
+** WordPress Required
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text,
+.screen-reader-text span {
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    position: absolute !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden !important;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0 !important;
+}
+
+.sticky,
+.bypostauthor{position: relative;}
+
+/*gutenberg*/
+p[class*="-font-size"],
+p[style*="font-size"] {
+    line-height: 1.3em;
+}
+.wp-block-quote cite,
+.wp-block-pullquote cite {
+    margin-top: .5em;
+}
+.wp-block-quote cite:before,
+.wp-block-pullquote cite:before {
+    margin-top: 0;
+}
+
+.wp-block-button {
+    margin-bottom: 10px;
+}
+
+.wp-block-button:not(.is-style-outline) a.wp-block-button__link:hover {
+    color: #fff !important;
+}
+
+.wp-block-cover-image-text, .wp-block-cover-text, section.wp-block-cover-image h2 {
+    color: #fff !important;
+}
+
+.wp-block-columns.alignwide blockquote.wp-block-quote {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer.ds .widget_calendar thead {
+    border: 1px solid #fff;
+    border-top: 0;
+}
+
+.ls aside .widget_calendar tbody {
+    border: 1px solid;
+}
+
+.wp-block-table.is-style-stripes td, .wp-block-table.is-style-stripes th {
+    border-color: grey !important;
+}
+
+.blog .entry-content ul ul,
+.blog .entry-content ol ul,
+.blog .entry-content ul ol {
+    margin-bottom: 0;
+}
+
+.wp-block-pullquote cite,
+.wp-block-quote cite {
+    color: #fff;
+}
+
+.gallery-item {
+    padding: 3px;
+    word-break: break-all;
+}
+.gallery-columns-6 .gallery-caption, .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption {
+    display: block !important;
+}

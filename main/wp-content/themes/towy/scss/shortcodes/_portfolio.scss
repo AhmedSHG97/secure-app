@@ -1,0 +1,27 @@
+.widget_portfolio-item-extended .cat-links {
+	margin-top: -12px;
+	margin-bottom: 8px;
+}
+
+.hide-thumbnail-hover-buttons {
+	.shortcode-posts .item-layout-item-regular article,
+	.item-layout-item-title .gallery-title-item,
+	.widget_portfolio-item-regular,
+	.item-layout-item-title .widget_portfolio-item {
+		@media (min-width: 1200px) {
+			.links-wrap {
+				display: none;
+			}
+			.item-content {
+				top: 0;
+				padding: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.item-meta {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}

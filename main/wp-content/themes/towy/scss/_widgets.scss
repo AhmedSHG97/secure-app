@@ -1,0 +1,318 @@
+/*
+**widgets
+*/
+aside,
+.before-content-area {
+	.widget-title {
+		text-align: center;
+		position: relative;
+		padding-bottom: 22px;
+		display: block;
+		overflow: hidden;
+		font-weight: 700;
+		.first-word {
+			font-weight: 300;
+		}
+		.zebra_title {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			margin-left: -15px;
+			width: 30px;
+			height: 3px;
+			background-color: transparent;
+			background-image: -webkit-linear-gradient(135deg, transparent 10%, $mainColor 10%, $mainColor 50%, transparent 50%, transparent 60%, $mainColor 60%, $mainColor);
+			background-image: linear-gradient(-45deg, transparent 10%, $mainColor 10%, $mainColor 50%, transparent 50%, transparent 60%, $mainColor 60%, $mainColor);
+			background-size: 7px 7px;
+		}
+	}
+	& > div + div {
+		margin-top: 10px;
+		& > .widget-title,
+		&.widget_no_background .widget-title {
+			margin-top: 22px;
+		}
+	}
+	& .widget + .widget {
+		margin-top: 50px;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="number"],
+	textarea,
+	select,
+	.form-control {
+		border-color: $mainColor;
+	}
+	input[type="text"]:focus,
+	input[type="email"]:focus,
+	input[type="url"]:focus,
+	input[type="password"]:focus,
+	input[type="search"]:focus,
+	input[type="tel"]:focus,
+	input[type="number"]:focus,
+	textarea:focus,
+	select:focus,
+	.form-control:focus {
+		border-color: $borderColor;
+	}
+}
+
+.before-content-area  {
+	.widget {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		display: block;
+		overflow: hidden;
+		.widget-title {
+			margin-top: 40px;
+			margin-bottom: 55px;
+		}
+	}
+	.widget.widget-first {
+		margin-top: 0;
+	}
+}
+
+//for wordpress widgets wrapper
+.widget-theme-wrapper {
+	&.with_background,
+	&.muted_background,
+	&.cs,
+	&.ds,
+	&.ls {
+		padding: 35px;
+	}
+}
+
+/* affix-aside */
+.affix-aside {
+	position: relative;
+	&.affix {
+		position: fixed;
+		top: 50px;
+	}
+	&.affix-top,
+	&.affix-bottom {
+	}
+	@media(max-width: 767px) {
+		&,
+		&.affix,
+		&.affix-bottom  {
+			position: static;
+			width: inherit !important;
+		}
+	}
+}
+
+//Maybe remove module header:
+.module-header {
+	margin: 0 0 38px;
+	text-transform: capitalize;
+	font-size: 40px;
+	& + p {
+	}
+	.page_footer & {
+		font-size: 28px;
+	}
+}
+
+.widget label[for],
+.comment-form label[for],
+.contact-form label[for],
+.order-form label[for] {
+}
+.widget > h3, 
+.widget-title{
+	font-size: 21px;
+	margin: -3px 0 25px;
+	position: relative;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.widget {
+	&:before,
+	&:after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		ul {
+
+			li {
+				padding-left: 20px;
+			}
+		}
+	}
+	li {
+		position: relative;
+	}
+
+	.vertical-item {
+		h4 {
+			font-size: 20px;
+			margin: 17px 0 0;
+		}
+
+		& + & {
+			margin-top: 16px;
+		}
+	}
+	//for selects that we cannot add a .form-control class - maybe remove
+	select {
+		width: 100%;
+		max-width: 100%;
+		height: 50px;
+		padding-left: 20px;
+		padding-right: 40px;
+		padding-top: 9px;
+		padding-bottom: 9px;
+		font-size: 16px;
+		border: 1px solid $mainColor;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="number"],
+	textarea {
+	}
+}
+
+.sidebar-column {
+	.widget-first-visible {
+		margin-top: 0 !important;
+		.widget-title {
+			margin-top: -3px !important;
+		}
+	}
+
+	&.col-md-3, &.col-lg-3 {
+		.widget > h3, .widget-title {
+			font-size: 21px;
+		}
+
+		.widget-title {
+			text-align: left;
+
+			.zebra_title {
+				left: 0;
+				margin-left: 0;
+			}
+		}
+
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="tel"],
+		input[type="number"],
+		select,
+		.form-control {
+			height: 40px;
+		}
+
+		.widget_search .form-inline .theme_button,
+		.widget_product_search [type="submit"],
+		.widget_mailchimp .form-inline .theme_button {
+			width: 40px;
+			height: 40px;
+			padding: 2px;
+		}
+	}
+}
+
+.page_footer {
+	.widget + .widget {
+		margin-top: 40px;
+	}
+	.widget li,
+	.widget ul {
+		border: none;
+	}
+	.widget-title {
+		font-size: 15px;
+		line-height: 20px;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+		margin-top: 1px;
+		margin-bottom: 25px;
+		position: relative;
+		display: block;
+		.last-word {
+			font-weight: 700;
+		}
+		.zebra_title {
+			position: absolute;
+			bottom: 0;
+			left:0;
+			width: 30px;
+			height: 3px;
+			background-color: transparent;
+			background-image: -webkit-linear-gradient(135deg, transparent 10%, $mainColor 10%, $mainColor 50%, transparent 50%, transparent 60%, $mainColor 60%, $mainColor);
+			background-image: linear-gradient(-45deg, transparent 10%, $mainColor 10%, $mainColor 50%, transparent 50%, transparent 60%, $mainColor 60%, $mainColor);
+			background-size: 7px 7px;
+		}
+	}
+
+	.widget_banner {
+		margin-bottom: 12px;
+	}
+	.widget_text {
+		margin-bottom: 20px;
+	}
+	.widget_mwt_twitter,
+	.widget_towy_twitter {
+		ul.tweet_list {
+			padding-top: 5px;
+			overflow: hidden;
+		}
+	}
+}
+
+.widget + .widget.no-gap-widget {
+	margin-top: 0 !important;
+}
+
+/* Widget Instagram */
+#sb_instagram {
+	margin-left: -5px !important;
+}
+
+/* widget_text */
+.widget_text {
+	p {
+		line-height: 21px;
+	}
+}
+
+@import 'widgets/search_mailchimp';
+@import 'widgets/nav_recent_categories';
+@import 'widgets/tags';
+@import 'widgets/popular';
+@import 'widgets/calendar';
+@import 'widgets/banner';
+@import 'widgets/socials';
+@import 'widgets/icons_list';
+@import 'widgets/post_slider';
+@import 'widgets/slider';
+@import 'widgets/flickr';
+@import 'widgets/twitter';
+@import 'widgets/posts';
+@import 'widgets/recent_posts';
+@import 'widgets/schedule';
+@import 'widgets/post_tabs';
+@import 'widgets/rss';

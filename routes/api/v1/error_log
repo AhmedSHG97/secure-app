@@ -1,0 +1,16 @@
+[28-Aug-2022 07:21:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/api/v1/api.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/api/v1/api.php on line 16
+[28-Aug-2022 07:21:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/api/v1/driver.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/api/v1/driver.php on line 21
+[30-Aug-2022 16:23:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/api/v1/driver.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/api/v1/driver.php on line 21
+[11-Sep-2022 14:37:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/bennebostaxi/public_html/routes/api/v1/api.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/routes/api/v1/api.php on line 16

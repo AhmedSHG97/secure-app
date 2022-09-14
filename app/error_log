@@ -1,0 +1,32 @@
+[13-Jul-2022 05:29:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/bennebostaxi/public_html/app/AccountApproved.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/AccountApproved.php on line 8
+[14-Jul-2022 23:37:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/bennebostaxi/public_html/app/AccountApproved.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/AccountApproved.php on line 8
+[18-Jul-2022 16:26:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/bennebostaxi/public_html/app/AccountApproved.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/AccountApproved.php on line 8
+[20-Jul-2022 16:26:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/bennebostaxi/public_html/app/AccountApproved.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/AccountApproved.php on line 8
+[22-Jul-2022 16:50:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/bennebostaxi/public_html/app/AccountApproved.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/AccountApproved.php on line 8
+[24-Jul-2022 15:44:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/bennebostaxi/public_html/app/AccountActivated.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/AccountActivated.php on line 14
+[24-Jul-2022 16:23:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Notifications\Notification' not found in /home/bennebostaxi/public_html/app/AccountApproved.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/AccountApproved.php on line 8
+[26-Jul-2022 07:56:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/bennebostaxi/public_html/app/OwnerNeededDocument.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/OwnerNeededDocument.php on line 7

@@ -1,0 +1,16 @@
+[25-Jul-2022 22:16:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/bennebostaxi/public_html/app/Models/Payment/CardInfo.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Models/Payment/CardInfo.php on line 9
+[25-Jul-2022 22:20:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/bennebostaxi/public_html/app/Models/Payment/DriverSubscription.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Models/Payment/DriverSubscription.php on line 8
+[25-Jul-2022 22:29:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/bennebostaxi/public_html/app/Models/Payment/DriverWallet.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Models/Payment/DriverWallet.php on line 10
+[25-Jul-2022 22:44:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/bennebostaxi/public_html/app/Models/Payment/DriverWalletHistory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bennebostaxi/public_html/app/Models/Payment/DriverWalletHistory.php on line 11
