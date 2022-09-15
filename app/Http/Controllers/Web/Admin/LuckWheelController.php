@@ -97,7 +97,7 @@ class LuckWheelController extends BaseController
     public function toggleStatus(Luck $luck)
     {
         $status = $luck->status ? false: true;
-        $luck->update(['active' => $status]);
+        $luck->update(['status' => $status]);
 
         $message = "status has been toggled successfully";
         return redirect('luck')->with('success', $message);
