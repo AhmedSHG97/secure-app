@@ -24,14 +24,14 @@
                         
 
                     <div class="col-12 text-right">
-                        <a href="{{url('promo/create')}}" class="btn btn-primary btn-sm">
-                            <i class="mdi mdi-plus-circle mr-2"></i>@lang('view_pages.add_promo')</a>
+                        <a href="{{url('luck/create')}}" class="btn btn-primary btn-sm">
+                            <i class="mdi mdi-plus-circle mr-2"></i>Create Card</a>
                     </div>
                 </div>
             </div>
 
         <div id="js-promo-partial-target">
-            <include-fragment src="promo/fetch">
+            <include-fragment src="luck/fetch">
                 <span style="text-align: center;font-weight: bold;"> Loading...</span>
             </include-fragment>
         </div>
@@ -55,7 +55,7 @@
         e.preventDefault();
             var search_keyword = $('#search_keyword').val();
             console.log(search_keyword);
-            fetch('promo/fetch?search='+search_keyword)
+            fetch('luck/fetch?search='+search_keyword)
             .then(response => response.text())
             .then(html=>{
                 document.querySelector('#js-promo-partial-target').innerHTML = html

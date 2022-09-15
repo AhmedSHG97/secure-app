@@ -315,7 +315,7 @@ if(str_contains((string)request()->path(),'translations')){
       </li>
       @endif
       @if(auth()->user()->can('manage-promo'))
-      <li class="{{'manage-promo' == $main_menu ? 'active' : '' }}">
+      <li class="{{'manage-luck' == $main_menu ? 'active' : '' }}">
         <a href="{{url('/luck')}}">
           <i class="fa fa-gift"></i> <span>Luck Wheel Cards</span>
         </a>

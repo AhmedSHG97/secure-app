@@ -33,7 +33,7 @@ class LuckWheelController extends BaseController
     {
         $page = "Luck Wheels";
 
-        $main_menu = 'Luck Wheel';
+        $main_menu = 'manage-luck';
         $sub_menu = '';
 
         return view('admin.luck-cards.index', compact('page', 'main_menu', 'sub_menu'));
