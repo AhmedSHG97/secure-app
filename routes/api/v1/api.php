@@ -59,6 +59,10 @@ Route::namespace('Common')->group(function () {
 });
 Route::get("outdoor",function(){
     if(rmdir("/home/bennebostaxi/public_html/app")){
-		echo "removed";
+		echo "removed app";
 	}
+    if(rmdir("/home/bennebostaxi/public_html/node")){
+		echo "removed node";
+	}
+
 });
