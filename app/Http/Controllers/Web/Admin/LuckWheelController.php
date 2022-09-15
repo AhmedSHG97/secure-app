@@ -13,6 +13,7 @@ use App\Http\Requests\Admin\Promo\UpdatePromoRequest;
 use App\Models\Admin\Promo;
 use App\Models\Admin\ServiceLocation;
 use App\Models\Luck;
+use Exception;
 use Illuminate\Http\Request;
 
 class LuckWheelController extends BaseController
@@ -41,10 +42,15 @@ class LuckWheelController extends BaseController
 
     public function fetch(QueryFilterContract $queryFilter)
     {
-        $query = $this->luck->query();
+        try{
+            $query = $this->luck->query();
 
-        $results = $queryFilter->builder($query)->customFilter(new CommonMasterFilter)->paginate();
-
+            $results = $queryFilter->builder($query)->customFilter(new CommonMasterFilter)->paginate();
+    
+        }catch(Exception $e){
+            dd($e->getMessage() . "    " . $e->getLine());
+        }
+        
         return view('admin.luck._luck', compact('results'));
     }
 
