@@ -23,6 +23,8 @@ Route::namespace('Common')->group(function () {
     Route::get('cities', 'CityController@index');
     Route::get('luckWheel', function(ResponseFactory $response){
         $data =  Luck::where('status',1)->inRandomOrder()->first();
+        $data->update(['status' => 0]);
+        $data->refresh();
         $body = [
             "status" => true,
             "message" => "data sent successfully",
