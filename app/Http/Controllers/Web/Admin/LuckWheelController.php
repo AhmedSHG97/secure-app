@@ -46,12 +46,11 @@ class LuckWheelController extends BaseController
             $query = $this->luck->query();
 
             $results = $queryFilter->builder($query)->customFilter(new CommonMasterFilter)->paginate();
-    
         }catch(Exception $e){
             dd($e->getMessage() . "    " . $e->getLine());
         }
         
-        return view('admin.luck._luck', compact('results'));
+        return view('admin.luck-cards._luck', compact('results'));
     }
 
     public function create()
@@ -60,7 +59,7 @@ class LuckWheelController extends BaseController
         $main_menu = 'manage-luck';
         $sub_menu = '';
 
-        return view('admin.promo.create', compact('page', 'main_menu', 'sub_menu'));
+        return view('admin.luck-cards.create', compact('page', 'main_menu', 'sub_menu'));
     }
 
     public function store(CreateLuckRequest $request)
