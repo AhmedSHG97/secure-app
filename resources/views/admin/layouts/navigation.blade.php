@@ -314,6 +314,13 @@ if(str_contains((string)request()->path(),'translations')){
         </a>
       </li>
       @endif
+      @if(auth()->user()->can('manage-promo'))
+      <li class="{{'manage-promo' == $main_menu ? 'active' : '' }}">
+        <a href="{{url('/luck')}}">
+          <i class="fa fa-gift"></i> <span>Luck Wheel Cards</span>
+        </a>
+      </li>
+      @endif
 
       @if(auth()->user()->can('complaint-title'))
       <li class="treeview {{ 'notifications' == $main_menu ? 'active menu-open' : '' }}">
