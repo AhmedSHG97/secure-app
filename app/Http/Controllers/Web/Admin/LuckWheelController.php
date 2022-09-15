@@ -43,7 +43,7 @@ class LuckWheelController extends BaseController
     public function fetch(QueryFilterContract $queryFilter)
     {
         try{
-            $query = $this->luck->where('status',1)->query();
+            $query = $this->luck->query();
 
             $results = $queryFilter->builder($query)->customFilter(new CommonMasterFilter)->paginate();
         }catch(Exception $e){
