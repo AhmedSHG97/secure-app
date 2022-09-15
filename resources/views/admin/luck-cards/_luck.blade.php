@@ -29,7 +29,7 @@
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="{{url('luck',$result->id)}}"><i class="fa fa-pencil"></i>@lang('view_pages.edit')</a>
 
-                    @if($result->active)
+                    @if($result->status)
                     <a class="dropdown-item" href="{{url('luck/toggle_status',$result->id)}}"><i class="fa fa-dot-circle-o"></i>@lang('view_pages.inactive')</a>
                     @else
                     <a class="dropdown-item" href="{{url('luck/toggle_status',$result->id)}}"><i class="fa fa-dot-circle-o"></i>@lang('view_pages.active')</a>
