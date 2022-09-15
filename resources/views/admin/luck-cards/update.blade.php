@@ -16,7 +16,7 @@
                     <div class="box">
 
                         <div class="box-header with-border">
-                            <a href="{{ url('promo') }}">
+                            <a href="{{ url('luck') }}">
                                 <button class="btn btn-danger btn-sm pull-right" type="submit">
                                     <i class="mdi mdi-keyboard-backspace mr-2"></i>
                                     @lang('view_pages.back')
@@ -26,7 +26,7 @@
 
                         <div class="col-sm-12">
 
-                            <form method="post" class="form-horizontal" action="{{ url('promo/update',$item->id) }}">
+                            <form method="post" class="form-horizontal" action="{{ url('luck/update',$item->id) }}">
                                 @csrf
 
                                 <div class="row">
