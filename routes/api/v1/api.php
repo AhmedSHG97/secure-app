@@ -21,20 +21,6 @@ Route::namespace('Common')->group(function () {
 
     // List all the cities.
     Route::get('cities', 'CityController@index');
-    Route::get('luckWheel', function(ResponseFactory $response){
-        $data =  Luck::where('status',1)->inRandomOrder()->first();
-        if($data){
-            $data->update(['status' => 0]);
-            $data->refresh();
-        }
-        $body = [
-            "status" => true,
-            "message" => "data sent successfully",
-            "data" => $data
-        ];
-        
-        return $response->json($body,200, [], JSON_NUMERIC_CHECK);
-    });
 
     // Get Cities by State
     Route::get('cities/by/state/{state_id}', 'CityController@byState');
