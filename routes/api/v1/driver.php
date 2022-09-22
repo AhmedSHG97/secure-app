@@ -48,6 +48,26 @@ Route::prefix('driver')->namespace('Driver')->middleware('auth')->group(function
             return $response->json($body,200, [], JSON_NUMERIC_CHECK);
            
         });
+        Route::get('checkLuckWheel', function(ResponseFactory $response){
+            $user_id = auth()->user()->id;
+            $user_count = Luck::where('status',0)->where("user_id",$user_id)->whereDay("updated_at",Carbon::now()->format('d'))->count();
+            if($user_count == 0){
+                $body = [
+                    "status" => true,
+                    "message" => "wheel is available",
+                    "data" => null
+                ];
+                
+                return $response->json($body,200, [], JSON_NUMERIC_CHECK);
+            }
+            $body = [
+                "status" => false,
+                "message" => "wheel is not available for that user know",
+                "data" => null
+            ];
+            return $response->json($body,200, [], JSON_NUMERIC_CHECK);
+           
+        });
         // get DriverDocument
         Route::get('documents/needed', 'DriverDocumentController@index');
         // Upload Driver document
